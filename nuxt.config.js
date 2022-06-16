@@ -76,7 +76,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxt/content', 'nuxt-purgecss'],
+  modules: ['@nuxt/content','@nuxtjs/markdownit', 'nuxt-purgecss'],
   /*
    ** Build configuration
    */
@@ -104,6 +104,16 @@ export default {
   // ? The content property: https://content.nuxtjs.org/configuration
   content: {
     dir: 'content'
+  },
+  markdownit: {
+    preset: 'default',
+    linkify: true,
+    breaks: true,
+    runtime: true, // Support `$md()`
+    use: [
+      'markdown-it-div',
+      'markdown-it-attrs'
+    ]
   },
   tailwindcss: {
     viewer: false, // disabled because it causes `Error: Cannot find module 'tailwindcss/resolveConfig'`, fixed in https://github.com/nuxt-community/tailwindcss-module/pull/303

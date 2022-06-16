@@ -1,5 +1,5 @@
-site_url: https://ntn-boilerplate.netlify.app/
-logo_url: https://ntn-boilerplate.netlify.app/icon.png
+site_url: https://dynamic-cheesecake-5fbd8b.netlify.app/
+logo_url: https://dynamic-cheesecake-5fbd8b.netlify.app/icon.png
 
 publish_mode: editorial_workflow
 backend:
@@ -39,6 +39,57 @@ collections:
               pattern: ['^[a-z]{2}([-])?([A-Za-z]{2})?$', 'Must match "xx" or "xx-XX" syntax (ex. "en" or "sv-SE")'],
             }
           # - { label: Site Email, name: siteemail, widget: string, required: false }
+  - label: 'Timeline'
+    name: 'timeline'
+    folder: 'content/timeline'
+    create: true
+    format: 'frontmatter'
+    slug: '{{fields.createdAt}}-{{slug}}'
+    fields:
+      - { label: 'Created Date', name: 'createdAt', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false }
+      - { label: 'Title', name: 'title', widget: 'string', required: true }
+      - label: 'Years'
+        name: 'years'
+        widget: 'list'
+        summary: '{{fields.year}}'
+        fields:
+          - { label: 'Year', name: 'year', widget: 'string', required: true }
+          - {
+              label: 'Era',
+              name: 'era',
+              widget: 'select',
+              default: 'ae',
+              options: [{ label: 'After Exodus', value: 'ae' }, { label: 'Before Exodus', value: 'be' }],
+            }
+          - { label: 'Overview', name: 'overview', widget: 'markdown', required: false }
+          - label: 'Events'
+            name: 'events'
+            widget: 'list'
+            summary: '{{fields.month}}'
+            fields:
+              - {
+                  label: 'Month',
+                  name: 'month',
+                  widget: 'select',
+                  default: '1',
+                  options:
+                    [
+                      { label: 'Reborn', value: '1' },
+                      { label: 'Blushing', value: '2' },
+                      { label: 'Courageous', value: '3' },
+                      { label: 'Aware', value: '4' },
+                      { label: 'Lucky', value: '5' },
+                      { label: 'Protective', value: '6' },
+                      { label: 'Passionate', value: '7' },
+                      { label: 'Fortunate', value: '8' },
+                      { label: 'Nostalgic', value: '9' },
+                      { label: 'Creative', value: '10' },
+                      { label: 'Celebrant', value: '11' },
+                      { label: 'Passing', value: '12' },
+                    ],
+                }
+              - { label: 'Content', name: 'body', widget: 'markdown', required: true }
+
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
@@ -48,7 +99,7 @@ collections:
     # editor:
     #   preview: true
     fields:
-      - { label: 'Created Date', name: 'createdAt', widget: 'datetime', date_format: "YYYY-MM-DD", time_format: false }
+      - { label: 'Created Date', name: 'createdAt', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }

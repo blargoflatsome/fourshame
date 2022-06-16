@@ -30,7 +30,7 @@
                 class="self-start inline-block mt-0 py-1 px-2 bg-gray text-white text-base font-medium rounded-sm whitespace-no-wrap"
               >{{ formatDate(post.createdAt) }}</h6>
             </span>
-            <p class="mt-2">{{ post.description }}</p>
+            <p v-if="post.description" class="mt-2">{{ post.description }}</p>
           </span>
         </template>
       </nuxt-link>
@@ -55,7 +55,7 @@
       postType: {
         type: String,
         default: 'blog',
-        validator: (val) => ['blog', 'projects'].includes(val),
+        validator: (val) => ['blog', 'projects', 'timeline'].includes(val),
       },
       amount: { // ? https://content.nuxtjs.org/fetching#limitn
         type: Number,
