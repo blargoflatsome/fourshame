@@ -2,7 +2,7 @@
 main
   section( v-if="posts" class="w-full max-w-5xl mx-auto")
     h1( class="title") Timeline
-    posts( post-type="timeline" :amount="10")
+    posts( :posts="posts" pathPrefix="timeline" :amount="10")
 
 </template>
 

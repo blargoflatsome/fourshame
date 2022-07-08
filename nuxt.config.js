@@ -57,6 +57,28 @@ export default {
     ],
     __dangerouslyDisableSanitizers: ['noscript']
   },
+  router: {
+    extendRoutes(routes, resolve) {
+      return [
+        ... routes,
+        {
+          name: 'location',
+          path: '/locations', // <--- change this
+          params: {
+            type: 'location'
+          },
+          component: resolve(__dirname, 'pagesCustom/lore/index.vue'),
+          chunkName: 'pages/locations',
+        },
+        {
+          name: 'locationArticle',
+          path: '/locations/:article',
+          component: resolve(__dirname, 'pagesCustom/lore/_lore.vue'),
+          chunkName: 'pages/locations/article',
+        }
+      ]
+    }
+  },
   /*
    ** Customize the progress-bar color
    */

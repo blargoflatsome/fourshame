@@ -17,6 +17,11 @@ nav
               to="/timeline" 
               class="inline-block"              
             ) Timeline
+          li
+            router-link(
+              to="/locations"
+              class="whitespace-nowrap"                    
+            ) Locations
           li About
           li PCs
           li NPCs 
@@ -27,7 +32,7 @@ nav
               ul(class="mt-0 text-sm")                
                 li
                   router-link(
-                    to="/"
+                    to="/lore/locations"
                     class="whitespace-nowrap"                    
                   ) Locations
                 li
