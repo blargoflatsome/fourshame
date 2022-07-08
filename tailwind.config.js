@@ -13,6 +13,8 @@ module.exports = {
         sans: ['Inter']
       },
       colors: {
+        black: "#202121",
+        white: "#fff",
         gray: {
           '50': 'var(--color-gray-50)', // #F9FAFB
           '100': 'var(--color-gray-100)', // #F3F4F6
@@ -23,7 +25,14 @@ module.exports = {
           '600': 'var(--color-gray-600)', // #4B5563
           '700': 'var(--color-gray-700)', // #374151
           '800': 'var(--color-gray-800)', // #1F2937
-          '900': 'var(--color-gray-900)' // #111827
+          '900': 'var(--color-gray-900)', // #111827
+          darkest: "#2a2a2a",
+          darker: "#4d4d4d",
+          dark: "#6c6c6c",
+          base: "#767676",
+          light: "#d5d5d5",
+          lighter: "#f3f3f3",
+          lightest: "#fafafa"
         },
         primary: {
           '100': 'var(--color-primary-100)', // #ECEFF5
@@ -35,6 +44,18 @@ module.exports = {
           '700': 'var(--color-primary-700)', // #2C3A57
           '800': 'var(--color-primary-800)', // #1C263B
           '900': 'var(--color-primary-900)' // #0D131E
+        },
+        action: {
+          light: "#7395ae",
+          dark: "#557a95"
+        },
+        accent: {
+          darkest: "#370617",
+          dark: "#6A040F",
+          base: "#6A040F",
+          light: "#D00000",
+          lighter: "#9D0208",
+          fade: "#d48e8f40"
         }
       },
       screens: {

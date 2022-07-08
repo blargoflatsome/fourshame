@@ -90,9 +90,9 @@ collections:
                 }
               - { label: 'Content', name: 'body', widget: 'markdown', required: true }
 
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+  - name: 'article'
+    label: 'Article'
+    folder: 'content/articles'
     create: true
     format: 'frontmatter'
     slug: '{{fields.createdAt}}-{{slug}}'
@@ -101,33 +101,80 @@ collections:
     fields:
       - { label: 'Created Date', name: 'createdAt', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
+      - {
+          label: 'Type',
+          name: 'type',
+          widget: 'select',
+          default: 'default',
+          options:
+            [
+              { label: 'Default', value: 'default' },
+              { label: 'Location', value: 'location' },
+              { label: 'Cosmology', value: 'cosmology' },
+            ],
+        }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
-  - name: 'projects'
-    label: 'Projects'
-    label_singular: 'Project'
-    folder: 'content/projects'
+  - name: 'houseRule'
+    label: 'House Rule'
+    folder: 'content/houseRules'
     create: true
     format: 'frontmatter'
     slug: '{{slug}}'
     preview_path: 'projects/{{slug}}'
     fields:
-      - {
-          label: 'Project Category',
-          name: 'category',
-          widget: 'select',
-          default: 'animals',
-          options: [{ label: 'Animals', value: 'animals' }, { label: 'Food', value: 'food' }],
-        }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
-      - { label: 'Description', name: 'description', widget: 'string', required: false }
-      - { label: 'Cover Image', name: 'cover', widget: 'image', required: false, allow_multiple: false }
       - { label: 'Content', name: 'body', widget: 'markdown', required: false }
+  - name: 'character'
+    label: 'Character'
+    folder: 'content/characters'
+    create: true
+    format: 'frontmatter'
+    slug: '{{slug}}'
+    preview_path: 'projects/{{slug}}'
+    fields:
+      - label: 'Character Image'
+        name: 'thumbnail'
+        widget: 'image'
+        choose_url: true
+        media_library:
+          config:
+            multiple: true
+      - { label: 'Name', name: 'name', widget: 'string', required: true }
       - {
-          label: 'Gallery',
-          name: 'gallery',
-          widget: 'list',
-          required: false,
-          summary: '{{fields.image}}',
-          field: { label: 'Image', name: 'image', widget: 'image' },
+          label: 'Type',
+          name: 'type',
+          widget: 'select',
+          default: 'npc',
+          options: [{ label: 'PC', value: 'pc' }, { label: 'NPC', value: 'npc' }],
         }
+      - {
+          label: 'Status',
+          name: 'status',
+          widget: 'select',
+          default: 'alive',
+          options:
+            [
+              { label: 'Alive', value: 'alive' },
+              { label: 'Dead', value: 'dead' },
+              { label: 'Unknown', value: 'unknown' },
+            ],
+        }
+      - { label: 'Bio', name: 'body', widget: 'markdown', required: false }
+  - name: 'player'
+    label: 'Player Bio'
+    folder: 'content/players'
+    create: true
+    format: 'frontmatter'
+    slug: '{{slug}}'
+    preview_path: 'projects/{{slug}}'
+    fields:
+      - label: 'Profile Image'
+        name: 'thumbnail'
+        widget: 'image'
+        choose_url: true
+        media_library:
+          config:
+            multiple: true
+      - { label: 'Name', name: 'name', widget: 'string', required: true }
+      - { label: 'Bio', name: 'body', widget: 'markdown', required: false }
