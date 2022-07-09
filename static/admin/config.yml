@@ -122,7 +122,6 @@ collections:
     create: true
     format: 'frontmatter'
     slug: '{{slug}}'
-    preview_path: 'projects/{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Content', name: 'body', widget: 'markdown', required: false }
@@ -132,7 +131,6 @@ collections:
     create: true
     format: 'frontmatter'
     slug: '{{slug}}'
-    preview_path: 'projects/{{slug}}'
     fields:
       - label: 'Character Image'
         name: 'thumbnail'
@@ -169,7 +167,6 @@ collections:
     create: true
     format: 'frontmatter'
     slug: '{{slug}}'
-    preview_path: 'projects/{{slug}}'
     fields:
       - label: 'Profile Image'
         name: 'thumbnail'
