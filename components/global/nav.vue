@@ -11,50 +11,58 @@ nav
         div(class="flex items-center justify-between border-b")
           div Urroth
           div(@click="show=false" class="cursor-pointer") X
-        ul
-          li
-            router-link(
-              to="/timeline" 
-              class="inline-block"              
-            ) Timeline
-          li
-            router-link(
-              to="/locations"
-              class="whitespace-nowrap"                    
-            ) Locations
+        ul          
           li About
-          li PCs
-          li NPCs 
+          li
+            router-link(
+              to="/players" 
+              class="inline-block"              
+            ) The Players 
+          li
+            router-link(
+              to="/characters" 
+              class="inline-block"              
+            ) Characters 
+          li
+            router-link(
+              to="/houserules" 
+              class="inline-block"              
+            ) House Rules 
           li
             Collapse
               template(#trigger)
                 span(class="inline-block text-action-light font-bold") Setting Lore
-              ul(class="mt-0 text-sm")                
+              ul(class="mt-0 text-sm")
                 li
                   router-link(
-                    to="/lore/locations"
+                    to="/timeline" 
+                    class="inline-block"              
+                  ) Timeline              
+                li
+                  router-link(
+                    to="/locations"
                     class="whitespace-nowrap"                    
                   ) Locations
                 li
                   router-link(
-                    to="/"
+                    to="/cosmology"
                     class="whitespace-nowrap"                    
                   ) Cosmology
-          li
-            Collapse
-              template(#trigger)
-                span(class="inline-block text-action-light font-bold") House Rules
-              ul(class="mt-0 text-sm")
-                li
-                  router-link(
-                    to="/"
-                    class="whitespace-nowrap"                    
-                  ) Altered Content
-                li
-                  router-link(
-                    to="/"
-                    class="whitespace-nowrap"                    
-                  ) Combat Manuevers
+          //- li
+          //-   Collapse
+          //-     template(#trigger)
+          //-       span(class="inline-block text-action-light font-bold") House Rules
+          //-     ul(class="mt-0 text-sm")
+          //-       li
+          //-         router-link(
+          //-           to="/"
+          //-           class="whitespace-nowrap"                    
+          //-         ) Altered Content
+          //-       li
+          //-         router-link(
+          //-           to="/"
+          //-           class="whitespace-nowrap"                    
+          //-         ) Combat Manuevers
 </template>
 
 <script>

@@ -3,10 +3,6 @@
     <section v-if="post">
       <article>
         <h1 class="">{{ post.title }}</h1>
-        <div
-          v-if="post.createdAt"
-          class="inline-block py-1 px-2 my-2 bg-gray text-white text-sm font-medium rounded-sm whitespace-no-wrap"
-        >{{ formatDate(post.createdAt) }}</div>
         <nuxt-content :document="post" />
       </article>
     </section>

@@ -63,19 +63,41 @@ export default {
         ... routes,
         {
           name: 'location',
-          path: '/locations', // <--- change this
-          params: {
-            type: 'location'
+          path: '/locations',
+          props: {
+            pageTitle: 'Locations',
+            pageType: 'location',
           },
-          component: resolve(__dirname, 'pagesCustom/lore/index.vue'),
+          component: resolve(__dirname, 'pagesCustom/articles.vue'),
           chunkName: 'pages/locations',
+          children: [
+            {
+              name: 'Location Article',
+              path: '/location/:article',
+              component: resolve(__dirname, 'pagesCustom/article.vue'),
+              chunkName: 'pages/location',
+            }
+          ]
         },
         {
-          name: 'locationArticle',
-          path: '/locations/:article',
-          component: resolve(__dirname, 'pagesCustom/lore/_lore.vue'),
-          chunkName: 'pages/locations/article',
-        }
+          name: 'cosmology',
+          path: '/cosmology',
+          props: {
+            pageTitle: 'Cosmology',
+            pageType: 'cosmology',
+          },
+          component: resolve(__dirname, 'pagesCustom/articles.vue'),
+          chunkName: 'pages/cosmology',
+          children: [
+            {
+              name: 'cosmology Article',
+              path: ':article',
+              component: resolve(__dirname, 'pagesCustom/article.vue'),
+              chunkName: 'pages/cosmology',
+            }
+          ]
+        },
+
       ]
     }
   },
