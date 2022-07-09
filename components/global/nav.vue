@@ -8,8 +8,7 @@ nav
     aside(v-if="show")
       div(class="fixed z-40 top-0 bottom-0 right-0 left-0 bg-black opacity-80" @click="show=false")
       div(class="menu p-5 z-50 w-1/2 md:w-1/3 lg:w-1/5 h-screen shadowbg-white border-r overflow-y-auto")
-        div(class="flex items-center justify-between border-b")
-          div Urroth
+        div(class="flex items-center justify-end border-b")
           div(@click="show=false" class="cursor-pointer") X
         ul          
           li About
