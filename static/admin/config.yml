@@ -130,7 +130,7 @@ collections:
     folder: 'content/characters'
     create: true
     format: 'frontmatter'
-    slug: '{{slug}}'
+    slug: '{{fields.name}}'
     fields:
       - label: 'Character Image'
         name: 'thumbnail'
@@ -166,7 +166,7 @@ collections:
     folder: 'content/players'
     create: true
     format: 'frontmatter'
-    slug: '{{slug}}'
+    slug: '{{fields.name}}'
     fields:
       - label: 'Profile Image'
         name: 'thumbnail'

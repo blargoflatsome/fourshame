@@ -18,7 +18,7 @@ div
             img(src="../assets/social-icons/paypal.png" alt="Support Us" width="20")
   
   div(class="container my-5 p-3")
-    router-view
+    nuxt(keep-alive)
     
   footer(class="p-3 border-t-4 border-accent-dark")
     div(class="container flex space-x-4 text-sm")

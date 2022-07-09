@@ -1,5 +1,5 @@
 <template>
-  <ul v-if="posts.length > 0" class="cards">
+  <ul v-if="posts" class="cards">
     <li
       v-for="(post, index) in posts"
       :key="index"
@@ -24,7 +24,7 @@
     </li>
   </ul>
   <p v-else class="max-w-5xl mx-auto">
-    {{ amount > 1 ? 'Posts not found' : 'Post not found' }}
+    Not found
   </p>
 </template>
 
