@@ -1,5 +1,5 @@
 ---
-createdAt: 2022-07-08T17:31:39.955Z
+createdAt: 2022-07-09T20:04:18.602Z
 title: Roudgara Forest
 type: location
 description: Roudgara Forest is the main setting location for the campaign.
