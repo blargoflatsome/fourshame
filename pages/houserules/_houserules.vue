@@ -22,5 +22,18 @@ export default {
     }
     return { post };
   },
+  components: [Tabs],
+  head(){
+    return {
+      title: `${this.post.title} | 4 Shame Not Honor`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: "Learn more about the Roudgara Campaign's house rules",
+        }
+      ],
+    }
+  }
 }
 </script>

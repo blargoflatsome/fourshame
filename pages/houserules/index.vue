@@ -19,5 +19,17 @@ export default {
     }
     return { posts };
   },
+  head(){
+    return {
+      title: `Houserules | 4 Shame Not Honor`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: "Learn more about the Roudgara Campaign's house rules",
+        }
+      ],
+    }
+  }
 }
 </script>

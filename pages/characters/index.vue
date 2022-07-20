@@ -17,8 +17,17 @@ export default {
     }
     return { posts };
   },
-  head: {
-    title: 'Characters'
-  },
+  head(){
+    return {
+      title: `Characters | 4 Shame Not Honor`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: "Learn more about the Roudgara Campaign's characters",
+        }
+      ],
+    }
+  }
 }
 </script>

@@ -24,6 +24,10 @@ div
 </template>
 
 <script>
+/**
+ * ToDo
+ * - Active Tab highlight
+ */
 export default {
   name: "Tabs",
   props: {

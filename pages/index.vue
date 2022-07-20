@@ -31,6 +31,18 @@ main
 
 <script>
 export default {
-  name: "Homepage"
+  name: "Homepage",
+  head(){
+    return {
+      title: `4 Shame Not Honor`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: "We are a homebrew D&D twitch stream"
+        }
+      ]
+    }
+  }
 }
 </script>

@@ -21,6 +21,18 @@ export default {
     }
     return { post };
   },
+  head(){
+    return {
+      title: `${this.post.name} | 4 Shame Not Honor`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.post.subtitle
+        }
+      ]
+    }
+  }
 }
 </script>
 
