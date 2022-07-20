@@ -132,6 +132,14 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Content', name: 'body', widget: 'markdown', required: false }
+      - label: 'Tabs'
+        name: 'tabs'
+        widget: 'list'
+        summary: '{{fields.tabName}}'
+        fields:
+          - { label: 'Tab Name', name: 'tabName', widget: 'string', required: true }
+          - { label: 'Content', name: 'body', widget: 'markdown', required: true }
+
   - name: 'character'
     label: 'Character'
     folder: 'content/characters'

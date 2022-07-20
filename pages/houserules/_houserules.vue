@@ -4,9 +4,13 @@ main
     h1 {{ post.title }}
     article(class="relative my-0 mx-auto")
       nuxt-content(:document="post")
+      Tabs(:tabs="post.tabs")
+ 
 </template>
 
 <script>
+import Tabs from '@/components/global/tabs.vue'
+
 export default {
   async asyncData({ $content, params, error }) {
     let post;
