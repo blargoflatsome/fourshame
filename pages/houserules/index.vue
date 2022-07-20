@@ -6,6 +6,9 @@ main
 </template>
 
 <script>
+/**
+ * I need to support Tables, Collapsing, and Tabs
+ */
 export default {
   async asyncData({ $content, error }) {
     let posts;

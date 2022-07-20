@@ -4,6 +4,7 @@ logo_url: https://dynamic-cheesecake-5fbd8b.netlify.app/icon.png
 publish_mode: editorial_workflow
 backend:
   name: git-gateway
+  repo: blargoflatsomen/fourshame
   branch: master
   squash_merges: true
 
@@ -12,8 +13,15 @@ local_backend: true
 
 media_folder: static/img
 public_folder: /img
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dehtu15lz
+    api_key: 539362117499135
+    use_transformations: true
 
 # Docs: https://www.netlifycms.org/docs/configuration-options/#collections
+# create a File version of the Homepage and About Us page
 collections:
   - label: 'Site settings'
     name: 'site'
@@ -89,7 +97,6 @@ collections:
                     ],
                 }
               - { label: 'Content', name: 'body', widget: 'markdown', required: true }
-
   - name: 'article'
     label: 'Article'
     folder: 'content/articles'
@@ -139,8 +146,14 @@ collections:
         choose_url: true
         media_library:
           config:
-            multiple: true
+            multiple: false
+            default_transformations:
+              - fetch_format: auto
+                width: 300    
+                quality: auto
+                crop: scale
       - { label: 'Name', name: 'name', widget: 'string', required: true }
+      - { label: 'Subtitle', name: 'subtitle', widget: 'string', required: false }
       - {
           label: 'Type',
           name: 'type',
@@ -176,4 +189,5 @@ collections:
           config:
             multiple: true
       - { label: 'Name', name: 'name', widget: 'string', required: true }
+      - { label: 'Subtitle', name: 'subtitle', widget: 'string', required: false }
       - { label: 'Bio', name: 'body', widget: 'markdown', required: false }

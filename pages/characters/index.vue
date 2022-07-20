@@ -6,6 +6,7 @@ main
 </template>
 
 <script>
+// Display cards of Characters
 export default {
   async asyncData({ $content, error }) {
     let posts;
