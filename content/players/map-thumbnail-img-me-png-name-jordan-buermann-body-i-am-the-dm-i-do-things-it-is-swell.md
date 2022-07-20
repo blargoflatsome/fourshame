@@ -1,5 +1,6 @@
 ---
 thumbnail: /img/me.png
-name: Jordan Buermann
+name: Jordan
+subtitle: The DM
 ---
-I am the DM, I do things. It is swell.
+I do things. It is swell.
