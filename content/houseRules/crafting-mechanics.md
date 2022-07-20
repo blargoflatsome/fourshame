@@ -3,34 +3,55 @@ title: Crafting Mechanics
 tabs:
   - tabName: Alchemy
     body: >-
-      x## Alchemy Kit
+      ## Alchemy Kit
 
 
       Alchemist's supplies include two glass beakers, a metal frame to hold a beaker in place over an open flame, a glass stirring rod, a small mortar and pestle, and a pouch of common alchemical ingredients, including salt, powdered iron, and purified water.
 
 
-      #### Learning On Your Own
+      ### Learning On Your Own
 
 
       With this tool kit you can improve your rank through experimentation. During a long rest roll an Experimentation Roll (1d20 + Arcana vs DC 15) per your target Rank. On a failure you suffer 1d6 damage per your current Rank. Once you have succeeded in all rolls spend 1 renown.
 
 
-      Ranks
+      ### Rank 1
 
 
-      | Rank | Actions |                                                                                                                                                                                                                
+      **Arcana:** Proficiency with alchemist's supplies allows you to unlock more information on Arcana checks involving potions and similar materials.
 
-      | ---- | ------ |
 
-      | 1    | **Arcana**:  Proficiency with alchemist's supplies allows you to unlock more information on Arcana checks involving potions and similar materials.                                                                           <br><br>**Investigation**:  When you inspect an area for clues, proficiency with alchemist's supplies grants additional insight into any chemicals or other substances that might have been used in the area.<br><br> **Easy Does It:**  You can attempt to improve one stat of your creation by making an Arcana roll DC 20. Failure causes the mixture to explode dealing 2d6 fire damage with other side effects possible at the DM's discretion. |
+      **Investigation**:  When you inspect an area for clues, proficiency with alchemist's supplies grants additional insight into any chemicals or other substances that might have been used in the area.
 
-      | 2    | **Waste not want not:**  You now create 2 doses of any Rank 1 recipe when you craft it.<br><br> **Seen a thing or two:**  You can reverse engineer an Alchemical mixture over a short rest. |
+       **Easy Does It:**  You can attempt to improve one stat of your creation by making an Arcana roll DC 20. Failure causes the mixture to explode dealing 2d6 fire damage with other side effects possible at the DM's discretion. 
 
-      | 3    | **Close Enough:**  You can replace 1 specific ingredient required by a Rank 2 or below recipe with another ingredient of your choice.<br><br>**Arcana Paste:** You always have a bit of magic reactive paste on hand that glows when smeared on a magic item.|
+      ### Rank 2
 
-      | 4    | **Steady Hands:**  When you use "Easy Does It" on a Rank 3 or below mixture the DC is reduced to 10. |
 
-      | 5    | **Master Craftsman:** Double your Proficiency Modifier when using this tool|
+      **Waste not want not:**  You now create 2 doses of any Rank 1 recipe when you craft it.
+
+
+      **Seen a thing or two:**  You can reverse engineer an Alchemical mixture over a short rest. 
+
+
+      ### Rank 3
+
+
+      **Close Enough:**  You can replace 1 specific ingredient required by a Rank 2 or below recipe with another ingredient of your choice.
+
+
+      **Arcana Paste:** You always have a bit of magic reactive paste on hand that glows when smeared on a magic item.
+
+
+      ### Rank 4
+
+
+      **Steady Hands:**  When you use "Easy Does It" on a Rank 3 or below mixture the DC is reduced to 10.
+
+      Rank 5
+
+
+      **Master Craftsman:** Double your Proficiency Modifier when using this tool|
 ---
 ## How Do I Make A Thing?
 
