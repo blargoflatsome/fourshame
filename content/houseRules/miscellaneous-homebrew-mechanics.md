@@ -31,7 +31,7 @@ You may communicate with your supernatural patrons at the cost of 2 Inspiration 
     * DM rerolls 1 Crit before your next long rest.
     * Give one creature Disadvantage on one roll before your next long rest.
 
-## Lore Books[\[ View @DndBeyond ]](https://www.dndbeyond.com/magic-items/2904091-book-of-lore "Dndbeyond Book of Lore")
+## Lore Books\[[ View @DndBeyond ]](https://www.dndbeyond.com/magic-items/2904091-book-of-lore "Dndbeyond Book of Lore")
 
 A Book of Lore grants a +1 to any Intelligence roll based on the subject matter of the book.Each use of the book takes up one of its 5 charges. When all charges are used up, you have learned all you can from the book.
 
@@ -97,12 +97,12 @@ Closest to 18 scores the number rolled.
 
 First to exactly 100 wins. If you roll 3 sixes in a single throw you also catch human slaves for an added 10pts.
 
-## Resurrection[\[ View @DndBeyond ]](https://www.dndbeyond.com/feats/455773-resurrection "Dndbeyond Resurrection Feat")
+## Resurrection [[View @DndBeyond ](https://www.dndbeyond.com/feats/455773-resurrection)]
 
 You have died and thru mystical means returned to life. However, the experience of a soul separating from the flesh for the first time is not one recovered from lightly. The body and soul, once a bonded unit, are now two. The soul never again feeling fully comfortable in the meat machine that it occupies.
 
-A resurrected character suffers a -1 to their Constitution and may not raise this attribute above a 19.This represents the persistent discomfort and knowledge that the body and soul are separate entities.
+A resurrected character suffers a -1 to their Constitution and may not raise this attribute above a 19. This represents the persistent discomfort and knowledge that the body and soul are separate entities.
 
 This separation also brings an extra awareness of the Ethereal Realm.
 
-**Spiritual Senses:**As an action you may forgo your earthly awareness and instead perceive the spiritual world aka the Ethereal Realm. This action requires concentration to maintain. It does not give you the ability to see invisible creatures. While you can see and hear into the Ethereal Realm you have disadvantage on perception and investigation rolls in the Material Realm.
+**Spiritual Senses:** As an action you may forgo your earthly awareness and instead perceive the spiritual world aka the Ethereal Realm. This action requires concentration to maintain. It does not give you the ability to see invisible creatures. While you can see and hear into the Ethereal Realm you have disadvantage on perception and investigation rolls in the Material Realm.
