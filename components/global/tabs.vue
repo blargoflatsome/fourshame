@@ -42,7 +42,7 @@ export default {
     };
   },
   created() {
-    this.active = this.tabs[0].id;
+    this.active = this.tabs[0].id
   },
   mounted() {
     this.stickyTop = this.$refs.tabBar.offsetTop;
@@ -50,6 +50,7 @@ export default {
   methods: {
     goto(id="top") {
       if(this.$route.hash === `#${id}`) return
+      this.active = id
       this.$router.replace({ name: this.$route.name, hash: `#${id}` });          
     }
   }

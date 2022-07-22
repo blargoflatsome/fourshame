@@ -4,7 +4,7 @@ main
     h1 {{ post.title }}
     article(class="relative my-0 mx-auto")
       nuxt-content(:document="post")
-      Tabs(:tabs="post.tabs")
+      Tabs(v-if="post.tabs" :tabs="post.tabs")
  
 </template>
 
@@ -12,6 +12,8 @@ main
 import Tabs from '@/components/global/tabs.vue'
 
 export default {
+  name: "HouseRule",
+  components: { Tabs },
   async asyncData({ $content, params, error }) {
     let post;
 
@@ -22,7 +24,6 @@ export default {
     }
     return { post };
   },
-  components: [Tabs],
   head(){
     return {
       title: `${this.post.title} | 4 Shame Not Honor`,
@@ -30,7 +31,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: "Learn more about the Roudgara Campaign's house rules",
+          content: `Learn more about the ${this.post.title} house rules`,
         }
       ],
     }

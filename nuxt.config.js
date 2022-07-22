@@ -1,7 +1,6 @@
 import postcssPresetEnv from 'postcss-preset-env'
 import postcssEasingGradients from 'postcss-easing-gradients'
 import * as SITE_INFO from './content/site/info.json'
-import { COLOR_MODE_FALLBACK } from './utils/globals.js'
 
 export default {
   target: 'static',
@@ -60,7 +59,7 @@ export default {
   router: {
     extendRoutes(routes, resolve) {
       return [
-        ... routes,
+        ...routes,
         {
           name: 'location',
           path: '/locations',
@@ -120,7 +119,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxt/content','@nuxtjs/markdownit', 'nuxt-purgecss'],
+  modules: ['@nuxt/content', '@nuxtjs/markdownit', 'nuxt-purgecss'],
   /*
    ** Build configuration
    */
@@ -140,7 +139,7 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) { }
   },
   /*
    ** Custom additions configuration
@@ -180,17 +179,6 @@ export default {
         /token/,
         /^vue-content-placeholders/
       ]
-    }
-  },
-  colorMode: {
-    classSuffix: '',
-    preference: 'system', // default value of $colorMode.preference
-    fallback: COLOR_MODE_FALLBACK, // fallback value if not system preference found
-    componentName: 'ColorScheme',
-    cookie: {
-      options: {
-        sameSite: 'lax'
-      }
     }
   },
   pwa: {

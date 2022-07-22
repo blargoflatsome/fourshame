@@ -23,10 +23,35 @@ nav
               class="inline-block"              
             ) Characters 
           li
-            router-link(
-              to="/houserules" 
-              class="inline-block"              
-            ) House Rules 
+            Collapse
+              template(#trigger)
+                span(class="inline-block text-action-light font-bold") House Rules
+              ul
+                li
+                  router-link(
+                    to="/houserules/altered-content" 
+                    class="inline-block"              
+                  ) Altered D&amp;D Content
+                li
+                  router-link(
+                    to="/houserules/combat-rules" 
+                    class="inline-block"              
+                  ) Combat Rules
+                li
+                  router-link(
+                    to="/houserules/crafting-mechanics" 
+                    class="inline-block"              
+                  ) Crafting
+                li
+                  router-link(
+                    to="/houserules/renown-xp-system" 
+                    class="inline-block"              
+                  ) Renown XP System
+                li
+                  router-link(
+                    to="/houserules/miscellaneous-homebrew-mechanics" 
+                    class="inline-block"              
+                  ) Misc Extra Rules
           li
             Collapse
               template(#trigger)
@@ -47,21 +72,6 @@ nav
                     to="/cosmology"
                     class="whitespace-nowrap"                    
                   ) Cosmology
-          //- li
-          //-   Collapse
-          //-     template(#trigger)
-          //-       span(class="inline-block text-action-light font-bold") House Rules
-          //-     ul(class="mt-0 text-sm")
-          //-       li
-          //-         router-link(
-          //-           to="/"
-          //-           class="whitespace-nowrap"                    
-          //-         ) Altered Content
-          //-       li
-          //-         router-link(
-          //-           to="/"
-          //-           class="whitespace-nowrap"                    
-          //-         ) Combat Manuevers
 </template>
 
 <script>
@@ -74,6 +84,11 @@ export default {
       show: false,
     }
   },
+  watch:{
+    $route (to, from){
+        this.show = false;
+    }
+} 
 };
 </script>
 
