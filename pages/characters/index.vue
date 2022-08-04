@@ -1,27 +1,39 @@
 <template lang="pug">
 main
-  section( v-if="posts" class="w-full mx-auto")
-    h1( class="title") Characters
-    div(class="grid grid-cols-2 gap-4")
+  section( v-if="posts")
+    h1( class="title") The Characters of the Roudgara Campaign
+    h2 The Main Cast
+    div(class="grid gird-cols-1 md:grid-cols-2 gap-4 md:p-3")
       div(
-        v-for="(post,index) in posts" 
-        :key="index"
+        v-for="(post,index) in activePCs" 
+        :key="'active-'+index"
       )
-        div(class="flex")
-          div(class="card-image border-4 border-accent-dark" style="width:200px;height:200px;")
-            img(v-if="post.thumbnail" :src='post.thumbnail' width="200" height="200" class="w-full h-full")
-            img(v-if="post.status == 'dead'" src="@/assets/images/dead-character-profile.jpg" width="200" height="200" class="w-full h-full")
-          div(class="flex flex-col flex-1 my-4 md:my-0 md:ml-4 leading-snug")
-            h2(class="card-title mb-0") {{ post.title || post.name }}
-            h3(class="leading-none") {{ post.subtitle }}
-            nuxt-link(type="button" :to="`/characters/${post.slug}`" class="btn mt-auto") Learn More
+        CharacterCard(:post="post")
 
+    h2(class="mt-4") NPC's of Note
+    div(class="grid gird-cols-1 md:grid-cols-2 gap-4 md:p-3")
+      div(
+        v-for="(post,index) in NPCs" 
+        :key="'active-'+index"
+      )
+        CharacterCard(:post="post")
+
+    h2(class="mt-4") The Dead
+    div(class="grid gird-cols-1 md:grid-cols-2 gap-4 md:p-3")
+      div(
+        v-for="(post,index) in deadPCs" 
+        :key="'active-'+index"
+      )
+        CharacterCard(:post="post")
 </template>
 
 <script>
-// Display cards of Characters
-// Sort - PC's first, then Alive / Unknown, Dead, Then Alpha
+import CharacterCard from './characterCard.vue'
+
 export default {
+  components: {
+    CharacterCard
+  },
   async asyncData({ $content, error }) {
     let posts;
     try {
@@ -30,6 +42,17 @@ export default {
       error({ message: "Character posts not found" });
     }
     return { posts };
+  },
+  computed: {
+    activePCs() {
+      return this.posts.filter(({type, status}) =>  type == 'pc' && status == 'alive')
+    },
+    deadPCs() {
+      return this.posts.filter(({type, status}) => status == 'dead')
+    },
+    NPCs() {
+      return this.posts.filter(({type}) =>  type == 'npc')
+    }
   },
   head(){
     return {

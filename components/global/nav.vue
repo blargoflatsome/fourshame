@@ -96,7 +96,7 @@ export default {
 .hamburger div {
   width: 30px;
   height: 3px;
-  background-color: #000;
+  background-color: #fff;
   margin: 6px 0;
 }
 

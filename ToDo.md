@@ -30,6 +30,8 @@ Header
 
 Styling
 - buttons hover blue and should not
+- Match player card styles to characters
+--- Make Tokens of our real faces
 
 Meta
 - Be sure to add meta title/descriptions to everything

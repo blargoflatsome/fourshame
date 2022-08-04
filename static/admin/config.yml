@@ -13,12 +13,12 @@ local_backend: true
 
 media_folder: static/img
 public_folder: /img
-media_library:
-  name: cloudinary
-  config:
-    cloud_name: dehtu15lz
-    api_key: 539362117499135
-    use_transformations: true
+# media_library:
+#   name: cloudinary
+#   config:
+#     cloud_name: dehtu15lz
+#     api_key: 539362117499135
+#     use_transformations: true
 
 # Docs: https://www.netlifycms.org/docs/configuration-options/#collections
 # create a File version of the Homepage and About Us page
@@ -152,15 +152,6 @@ collections:
         name: 'thumbnail'
         widget: 'image'
         required: false
-        choose_url: true
-        media_library:
-          config:
-            multiple: false
-            default_transformations:
-              - fetch_format: auto
-                width: 300    
-                quality: auto
-                crop: scale
       - { label: 'Name', name: 'name', widget: 'string', required: true }
       - { label: 'Subtitle', name: 'subtitle', widget: 'string', required: false }
       - {
