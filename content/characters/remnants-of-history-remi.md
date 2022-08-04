@@ -1,5 +1,5 @@
 ---
-thumbnail: https://res.cloudinary.com/dehtu15lz/image/upload/c_thumb,w_200,g_face/v1658287866/remi-art_hraoyt.jpg
+thumbnail: /img/remi-token.png
 name: Remnants of History (Remi)
 subtitle: Tabaxi, Artificer, Emissary of the Ethereal Realm, Master Healer
 type: pc
