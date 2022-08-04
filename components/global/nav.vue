@@ -59,7 +59,7 @@ nav
               ul(class="mt-0 text-sm")
                 li
                   router-link(
-                    to="/timeline" 
+                    to="/timeline/2022-06-16t15-40-38-831z-campaign" 
                     class="inline-block"              
                   ) Timeline              
                 li

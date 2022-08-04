@@ -1,38 +1,63 @@
 <template lang="pug">
 main
-  section(v-if='post')
+  section(v-if='post' id="timeline-wrapper")
     h1 {{ post.title }}
     article(class="timeline relative my-0 mx-auto")
-      div(
-        v-for="(event,index) in post.years.slice().reverse()" 
-        :key="`year${event.year}`"
-        class="year relative py-3 px-10 my-10 w-1/2"
-        :class="position(event.type)"  
-      )
-         div(class="body relative py-5 px-6 border border-accent-dark rounded bg-white" :class="{'z-10': isActive != index}")
+      div(v-for="(event,index) in sortedData" :key="`year-${event.year}-${index}`")
+        div(
+          v-if="event.overview"                 
+          class="year relative py-3 px-10 my-10 w-1/2"
+          :class="position(event.majorEvent)"  
+        )
+          div(class="body relative py-5 px-6 border border-accent-dark rounded bg-white" :class="{'z-10': isActive != index}")
             div(
               @click="isActive = index" 
-              class="text-right cursor-pointer"
+              class="text-pos cursor-pointer"
             ) [ expand ]
-              div(:class="{'fixed top-0 left-0 bottom-0 right-0 z-50 bg-white h-full overflow-y-scroll': isActive == index}") 
-                div(:class="{'container p-3': isActive == index}")     
+            div(:class="{'fixed top-0 left-0 bottom-0 right-0 bg-white h-full overflow-y-scroll z-20': isActive == index}") 
+              button(
+                  v-if="isActive == index"
+                  @click="isActive = null" 
+                  type="button" 
+                  class="z-50 border text-3xl mr-5 mt-3"
+                ) X 
+              div(:class="{'container p-3': isActive == index}")                                                                  
+                h2(:class="{'text-pos': isActive != index}")
+                  | {{event.year}}&nbsp;
+                  span(class="uppercase") {{event.era}}       
+
+                div(class="text-black" v-html='$md.render(event.overview)')
+
+        template(v-if="event.events")
+          div(          
+            v-for="(bullet,x) in sortByMonth(event.events)"
+            :key="`event${bullet.month}`"
+            class="year relative py-3 px-10 my-10 w-1/2"
+            :class="position()"                          
+          )
+            div(
+              v-if="bullet.body"
+              class="body relative py-5 px-6 border border-accent-dark rounded bg-white" 
+              :class="{'z-10': isActive != `m-${x}`}"
+            )
+              div(
+                  @click="isActive = `m-${x}`" 
+                  class="text-pos cursor-pointer"
+              ) [ expand ]
+              div(:class="{'fixed top-0 left-0 bottom-0 right-0 z-20 bg-white h-full overflow-y-scroll': isActive == `m-${x}`}") 
+                div(:class="{'container p-3': isActive == `m-${x}`}")     
                   button(
-                    v-if="isActive == index"
+                    v-if="isActive == `m-${x}`"
                     @click="isActive = null" 
                     type="button" 
-                    class="z-20 float-right text-3xl mr-5 mt-3"
-                  ) X            
-                  div(v-if="event.title" class="text-xl font-bold" :class="{'text-pos': isActive != index}") {{event.title}}
-                  h2(:class="{'text-pos': isActive != index}")
+                    class="z-50 text-3xl mr-5 mt-3"
+                  ) X
+                div(class="flex" :class="{'text-pos': isActive != `m-${x}`}")
+                  h2(class="leading-none self-end m-0")
                     | {{event.year}}&nbsp;
-                    span(class="uppercase") {{event.era}}                    
-                  div(
-                      v-for="(bullet,x) in event.events"
-                      :key="`event${bullet.month}`"
-                      :class="{'text-base': isActive == index, 'text-sm': isActive != index}"                             
-                  )   
-                    h3 The {{ monthName(bullet.month) }} {{yearName(event.year)}} 
-                    div(class="text-black" v-html='$md.render(bullet.body)')
+                    span(class="uppercase") {{event.era}}    
+                  h3(class="ml-3 self-end leading-none") The {{ monthName(bullet.month) }} {{yearName(event.year)}} 
+                div(class="text-black" v-html='$md.render(bullet.body)')
 </template>
 
 <script>
@@ -52,7 +77,44 @@ export default {
       isActive: null
     };
   },
+  computed: {  
+    sortedData() {
+      const aeYears = this.post.years.filter(({era})=>era=='ae').sort((a,b) => this.sortByYearAsc(a,b))
+      const beYears = this.post.years.filter(({era})=>era=='be').sort((a,b) => this.sortByYearDesc(a,b))
+      
+      return aeYears.concat(beYears)
+    }
+  },
   methods: {
+    sortByMonth(events) {
+      return events.slice().sort((a,b)=>{return parseInt(a.month) < parseInt(b.month) ? 1 : -1})
+    },
+    sortByYearAsc(a,b) {
+      const year1 = parseInt(a.year) 
+      const year2 = parseInt(b.year)
+      if(year1 == year2) {
+        if(a.isMajorEvent) return 1
+        if(b.isMajorEvent) return  -1
+        return 0
+      }
+ 
+      if(year1 < year2) return 1
+
+      return -1
+    },
+    sortByYearDesc(a,b) {
+      const year1 = parseInt(a.year) 
+      const year2 = parseInt(b.year)
+      if(year1 == year2) {
+        if(a.isMajorEvent) return 1
+        if(b.isMajorEvent) return  -1
+        return 0
+      }
+ 
+      if(year1 > year2) return 1
+
+      return -1
+    },
     formatDate(dateString) {
       const date = new Date(dateString)
       return date.toLocaleDateString(process.env.lang) || ''
@@ -81,15 +143,17 @@ export default {
 
       return months[month];
     },
-    position(type) {
-      if (type == "era") eventCounter++;
+    position(isMajorEvent) {
+      if (isMajorEvent){
+         eventCounter++;
+         return { posCenter: true }
+      }
+
       const count = eventCounter;
       eventCounter++;
-
-      return {
-        left: type == "normal" && count % 2 == 0,
-        right: type == "normal" && count % 2 != 0,
-        center: type == "era"
+      return {        
+        posLeft: count % 2 == 0,
+        posRight: count % 2 != 0,        
       };
     }
   }
@@ -97,7 +161,6 @@ export default {
 </script>
 
 <style scoped>
-/* Convert what you can to Tailwind and leave the complex stuff */
 .timeline {
   max-width: 1200px;
 }
@@ -111,15 +174,12 @@ export default {
   left: 50%;
   margin-left: -3px;
 }
-/* .year {
-  background-color: inherit;
-} */
 
-.year.center {
+.year.posCenter {
   margin: auto;
 }
-.year.left::before,
-.year.right::before {
+.year.posLeft::before,
+.year.posRight::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -129,27 +189,27 @@ export default {
   border: medium solid theme("colors.black");
 }
 
-.year.left {
+.year.posLeft {
   left: 0;
 }
-.year.left:before {
+.year.posLeft:before {
   right: 30px;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent theme("colors.black");
 }
-.year.right {
+.year.posRight {
   left: 50%;
 }
-.year.right:before {
+.year.posRight:before {
   left: 30px;
   border-width: 10px 10px 10px 0;
   border-color: transparent #000 transparent transparent;
 }
-.year.right:after {
+.year.posRight:after {
   left: -12px;
 }
-.year.left:after,
-.year.right:after {
+.year.posLeft:after,
+.year.posRight:after {
   content: "";
   position: absolute;
   width: 25px;
@@ -162,40 +222,52 @@ export default {
   z-index: 1;
 }
 
-.left .text-pos {
+.posLeft .text-pos {
   text-align: right;
 }
 
-.right .text-pos {
+.posRight .text-pos {
   text-align: left;
 }
 
-.center .text-pos {
+.posCenter .text-pos {
   text-align: center;
 }
 
 @media screen and (max-width: 600px) {
-  #app .timeline:after {
+  #timeline-wrapper .timeline:after {
     left: 31px;
   }
-  #app .year {
+  #timeline-wrapper .year {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
   }
-  #app .year:before {
+  #timeline-wrapper .year:before {
     left: 60px;
     right: auto;
     border: medium solid theme("colors.black");
     border-width: 10px 10px 10px 0;
     border-color: transparent #000 transparent transparent;
   }
-  #app .year.left::after,
-  #app .year.right::after {
+  #timeline-wrapper .year.posLeft::after,
+  #timeline-wrapper .year.posRight::after {
     left: 15px;
   }
-  #app .year.right {
+  #timeline-wrapper .year.posRight {
     left: 0%;
+  }
+  
+  #timeline-wrapper .posLeft .text-pos {
+    text-align: left;
+  }
+
+  #timeline-wrapper .posRight .text-pos {
+    text-align: left;
+  }
+
+  #timeline-wrapper .posCenter .text-pos {
+    text-align: left;
   }
 }
 </style>

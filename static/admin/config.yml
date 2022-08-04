@@ -69,6 +69,7 @@ collections:
               default: 'ae',
               options: [{ label: 'After Exodus', value: 'ae' }, { label: 'Before Exodus', value: 'be' }],
             }
+          - { label: "Major Event", name: "majorEvent", widget: "boolean", default: false, required: false}
           - { label: 'Overview', name: 'overview', widget: 'markdown', required: false }
           - label: 'Events'
             name: 'events'
