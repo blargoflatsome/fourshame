@@ -1,4 +1,5 @@
 ---
+thumbnail: /img/emerson-token.png
 name: Emmerson Rosethorne
 subtitle: Guardian of Mother's Grove, Student of Gerald Stumpton
 type: pc
