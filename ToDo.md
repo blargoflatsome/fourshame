@@ -22,3 +22,18 @@ About page
 
 Homepage
 - Advertise Merch / Twitch / Donations etc
+- Embed some clips
+
+Header
+- Replace the logo with the new one 
+- mimic the TeeSpring header 
+
+Styling
+- buttons hover blue and should not
+
+Meta
+- Be sure to add meta title/descriptions to everything
+- Figure out meta Images
+
+After Publish
+- Submit to search engines
