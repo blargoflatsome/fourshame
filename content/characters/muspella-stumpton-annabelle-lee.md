@@ -1,6 +1,6 @@
 ---
 thumbnail: /img/muspella-token.png
-name: Muspella Stumpton (Annabelle Lee)
+name: Muspella
 subtitle: Profaned, Slave Killer, Adopted daughter of Gerald Stumpton, Barbarian
   of Wolf Grove
 type: pc
