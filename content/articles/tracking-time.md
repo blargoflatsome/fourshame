@@ -2,6 +2,7 @@
 createdAt: 2022-08-06T20:34:26.262Z
 title: Tracking Time
 type: cosmology
+description: How to track time in Urroth.
 ---
 # Tracking Time.
 
