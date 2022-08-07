@@ -4,8 +4,6 @@ title: The Fade
 type: cosmology
 description: '"Better to die than to merely fade away" - Anonymous'
 ---
-# The Fade
-
 > "Better to die than to merely fade away" - Anonymous
 
 A land where the lost fade into oblivion. The Fade separates the Material Realm from the Necrotic. It's a realm of slow decay and darkness. Dread and sorrow. Where the material is broken down into its base components and discarded. While the astral realm is a realm of thought, the fae of wonder, and the Ethereal emotion. The Fade is where all those things go to die.
