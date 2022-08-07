@@ -4,8 +4,6 @@ title: Tracking Time
 type: general
 description: How to track time in Urroth.
 ---
-# Tracking Time.
-
 ## The Sun
 
 The sun does not rise, set, nor move across the sky. It merely winks on and winks off, becoming the moon. In the more civilized areas of the world, the time of day is tracked by 'counting the ticks'. This is made easier by clockwork contraptions brought into popularity by the gnomes of Thames. The physics of this setting is such that the world of Urroth does not have seasons. The weather is fairly consistent as you travel from place to place.
