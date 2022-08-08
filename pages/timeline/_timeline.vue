@@ -1,7 +1,7 @@
 <template lang="pug">
 main
   section(v-if='post' id="timeline-wrapper")
-    h1 {{ post.title }}
+    h1 {{ post.title }} Timeline
     article(class="timeline relative my-0 mx-auto")
       div(v-for="(event,index) in sortedData" :key="`year-${event.year}-${index}`")
         div(

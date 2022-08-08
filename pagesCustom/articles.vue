@@ -1,14 +1,12 @@
 <template lang="pug">
 main
   section(v-if="posts")
-    h1(class="title") {{pageTitle}}
-    
-    div(class="md:flex")
-      div(class="md:order-2")
-        //- Make this hideable on D-Top and a floating icon on mobile?
+    h1(class="title") {{pageTitle}}    
+    div(class="w-full md:flex space-x-4")
+      div
         posts(:posts="posts" :key="pageTitle" :pathPrefix="pageType")
-      div(class="flex-1 md:pr-10 md:order-1")
-        nuxt
+      div(class="flex-1")
+        nuxt(:key="$route.fullPath")
 </template>
 
 <script>
@@ -32,7 +30,7 @@ export default {
   watch: {
     '$route.query': '$fetch'
   },
-  async fetch() {
+  async fetch() {    
     this.posts = await this.$content("articles").where({type: this.pageType}).sortBy({key: 'slug', direction: 'asc'}).fetch();
   },
 }

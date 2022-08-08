@@ -1,16 +1,15 @@
-<template>
-  <main>
-    <section v-if="post">
-      <article>
-        <h1 class="">{{ post.title }}</h1>
-        <nuxt-content :document="post" />
-      </article>
-    </section>
-  </main>
+<template lang="pug">
+article(v-if="post")  
+  TOC(:toc="post.toc")
+    h2(class="text-black") {{ post.title }}  
+    nuxt-content(:document="post")
 </template>
 
 <script>
+import TOC from '@/components/global/toc.vue'
+
 export default {
+  components: { TOC },
   async asyncData({ $content, params, error }) {
     let post;
     try {
@@ -20,11 +19,5 @@ export default {
     }
     return { post };
   },
-  methods: {
-    formatDate(dateString) {
-      const date = new Date(dateString)
-      return date.toLocaleDateString(process.env.lang) || ''
-    }
-  }
 }
 </script>

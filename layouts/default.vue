@@ -1,17 +1,17 @@
 <template lang="pug">
 div
-  header(class="flex items-center p-3 bg-black border-b-4 border-accent-dark")
-    Nav(class="mr-5")
-    div(class="flex w-full items-center justify-between")
-      div
-        nuxt-link(to="/")
-          img(src="@/assets/images/4-shame-not-honor-logo.png" alt="4 Shame Logo")
+  header(id='top' class="p-3 bg-black border-b-4 border-accent-dark")
+    div(class="container m-auto flex text-white items-center justify-start ")
+      Nav(class="mr-5")      
+      nuxt-link(to="/")
+        img(src="@/assets/images/4-shame-not-honor-logo.png" alt="4 Shame Logo")
+      p(class="hidden w-full md:block text-center text-3xl") Homebrew D&amp;D Every Sunday on Twitch!
   
-  div(class="container py-5 p-3")
+  div(class="container m-auto py-5 p-3")
     nuxt(keep-alive)
     
   footer(class="p-3 border-t-4 border-b-4 border-accent-dark bg-gray-100")
-    div(class="container flex space-x-4 text-sm")
+    div(class="container m-auto flex space-x-4 text-sm")
       div(class="mr-auto") © 2022 4 Shame Not Honor LLC
         div(class="flex space-x-3 mt-2")
           a(href="https://www.facebook.com/4shamenothonor/") 

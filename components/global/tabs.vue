@@ -44,9 +44,6 @@ export default {
   created() {
     this.active = this.tabs[0].id
   },
-  mounted() {
-    this.stickyTop = this.$refs.tabBar.offsetTop;
-  },
   methods: {
     goto(id="top") {
       if(this.$route.hash === `#${id}`) return

@@ -11,7 +11,11 @@ nav
         div(class="flex items-center justify-end border-b")
           div(@click="show=false" class="cursor-pointer") X
         ul          
-          li About
+          li 
+             router-link(
+              to="/about" 
+              class="inline-block"              
+            ) About
           li
             router-link(
               to="/players" 
@@ -21,57 +25,37 @@ nav
             router-link(
               to="/characters" 
               class="inline-block"              
-            ) Characters 
+            ) The Characters
           li
-            Collapse
-              template(#trigger)
-                span(class="inline-block text-action-light font-bold") House Rules
-              ul
-                li
-                  router-link(
-                    to="/houserules/altered-content" 
-                    class="inline-block"              
-                  ) Altered D&amp;D Content
-                li
-                  router-link(
-                    to="/houserules/combat-rules" 
-                    class="inline-block"              
-                  ) Combat Rules
-                li
-                  router-link(
-                    to="/houserules/crafting-mechanics" 
-                    class="inline-block"              
-                  ) Crafting
-                li
-                  router-link(
-                    to="/houserules/renown-xp-system" 
-                    class="inline-block"              
-                  ) Renown XP System
-                li
-                  router-link(
-                    to="/houserules/miscellaneous-homebrew-mechanics" 
-                    class="inline-block"              
-                  ) Misc Extra Rules
+            router-link(
+              to="/general"
+              class="whitespace-nowrap"                    
+            ) The World    
           li
-            Collapse
-              template(#trigger)
-                span(class="inline-block text-action-light font-bold") Setting Lore
-              ul(class="mt-0 text-sm")
-                li
-                  router-link(
-                    to="/timeline/2022-06-16t15-40-38-831z-campaign" 
-                    class="inline-block"              
-                  ) Timeline              
-                li
-                  router-link(
-                    to="/locations"
-                    class="whitespace-nowrap"                    
-                  ) Locations
-                li
-                  router-link(
-                    to="/cosmology"
-                    class="whitespace-nowrap"                    
-                  ) Cosmology
+            router-link(
+              to="/timeline/2022-06-16t15-40-38-831z-campaign" 
+              class="inline-block"              
+            ) Timeline      
+          li
+            router-link(
+              to="/houserules" 
+              class="inline-block"              
+            ) House Rules    
+          li
+            router-link(
+              to="/locations"
+              class="whitespace-nowrap"                    
+            ) Locations
+          li
+            router-link(
+              to="/cosmology"
+              class="whitespace-nowrap"                    
+            ) Cosmology
+          li  
+            router-link(
+              to="/blog" 
+              class="inline-block"              
+            ) News   
 </template>
 
 <script>

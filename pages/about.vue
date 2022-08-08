@@ -2,12 +2,6 @@
 main
   section
     div(v-html='$md.render(posts.content)')
-    //- iframe(
-    //-     src="https://player.twitch.tv/?channel=4shamenothonor&parent=fourshame.com&muted=true"
-    //-     height="720"
-    //-     width="1280"
-    //-     allowfullscreen
-    //- )
 </template>
 
 <script>
@@ -17,7 +11,7 @@ export default {
   async asyncData({ $content, error }) {
     let posts;
     try {
-      posts = await $content("site", 'info').fetch();
+      posts = await $content("site", 'about').fetch();
     } catch (e) {
       error({ message: "Homepage posts not found" });
     }

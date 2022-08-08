@@ -96,7 +96,60 @@ export default {
             }
           ]
         },
-
+        {
+          name: 'general',
+          path: '/general',
+          props: {
+            pageTitle: 'Urroth',
+            pageType: 'general',
+          },
+          component: resolve(__dirname, 'pagesCustom/articles.vue'),
+          chunkName: 'pages/generals',
+          children: [
+            {
+              name: 'Urroth Article',
+              path: ':article',
+              component: resolve(__dirname, 'pagesCustom/article.vue'),
+              chunkName: 'pages/general',
+            }
+          ]
+        },
+        {
+          name: 'blog',
+          path: '/blog',
+          props: {
+            pageTitle: 'Articles',
+            pageType: 'blog',
+          },
+          component: resolve(__dirname, 'pagesCustom/articles.vue'),
+          chunkName: 'pages/blogs',
+          children: [
+            {
+              name: 'Articles',
+              path: ':article',
+              component: resolve(__dirname, 'pagesCustom/article.vue'),
+              chunkName: 'pages/blog',
+            }
+          ]
+        },
+        {
+          name: 'houserules',
+          path: '/houserules',
+          props: {
+            pageTitle: 'House Rules',
+            pageType: 'houserule',
+          },
+          component: resolve(__dirname, 'pagesCustom/articles.vue'),
+          chunkName: 'pages/house-rules',
+          children: [
+            {
+              name: 'House Rule',
+              path: '/houserule/:article',
+              component: resolve(__dirname, 'pagesCustom/article.vue'),
+              chunkName: 'pages/house-rule',
+            }
+          ]
+        },
       ]
     }
   },
@@ -119,7 +172,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxt/content', '@nuxtjs/markdownit', 'nuxt-purgecss'],
+  modules: ['@nuxt/content', '@nuxtjs/markdownit', 'nuxt-purgecss', 'vue-scrollto/nuxt'],
   /*
    ** Build configuration
    */

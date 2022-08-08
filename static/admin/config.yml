@@ -13,12 +13,6 @@ local_backend: true
 
 media_folder: static/img
 public_folder: /img
-# media_library:
-#   name: cloudinary
-#   config:
-#     cloud_name: dehtu15lz
-#     api_key: 539362117499135
-#     use_transformations: true
 
 # Docs: https://www.netlifycms.org/docs/configuration-options/#collections
 # create a File version of the Homepage and About Us page
@@ -46,7 +40,18 @@ collections:
               widget: string,
               pattern: ['^[a-z]{2}([-])?([A-Za-z]{2})?$', 'Must match "xx" or "xx-XX" syntax (ex. "en" or "sv-SE")'],
             }
-          # - { label: Site Email, name: siteemail, widget: string, required: false }
+          - { label: 'Homepage Content', name: 'content', widget: 'markdown', required: false }
+  - label: 'About'
+    name: 'about'
+    files:
+      - label: 'About'
+        name: 'about'
+        file: 'content/site/about.json'
+        format: 'json'
+        editor:
+          preview: false
+        fields:
+          - { label: 'About Content', name: 'content', widget: 'markdown', required: false }
   - label: 'Timeline'
     name: 'timeline'
     folder: 'content/timeline'
@@ -104,6 +109,8 @@ collections:
     create: true
     format: 'frontmatter'
     slug: '{{slug}}'
+    sortable_fields: ['commit_date', 'title', 'type']
+    summary: "{{type}} - {{title}}"
     # editor:
     #   preview: true
     fields:
@@ -117,30 +124,16 @@ collections:
           required: true,
           options:
             [
-              { label: 'Default', value: 'default' },
-              { label: 'Location', value: 'location' },
+              { label: 'Blog', value: 'blog' },
               { label: 'Cosmology', value: 'cosmology' },
+              { label: 'General', value: 'general' },
+              { label: 'House Rule', value: 'houserule' },
+              { label: 'Location', value: 'location' },
+              
             ],
         }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
-  - name: 'houseRule'
-    label: 'House Rule'
-    folder: 'content/houseRules'
-    create: true
-    format: 'frontmatter'
-    slug: '{{slug}}'
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string', required: true }
-      - { label: 'Content', name: 'body', widget: 'markdown', required: false }
-      - label: 'Tabs'
-        name: 'tabs'
-        widget: 'list'
-        summary: '{{fields.tabName}}'
-        fields:
-          - { label: 'Tab Name', name: 'tabName', widget: 'string', required: true }
-          - { label: 'Content', name: 'body', widget: 'markdown', required: true }
-
   - name: 'character'
     label: 'Character'
     folder: 'content/characters'
