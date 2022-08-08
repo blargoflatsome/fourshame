@@ -1,10 +1,7 @@
 Characters
-- Sort by PC/NPC, Alive/Unknown/Dead, Alpha
 - Search Bar
-- Images should all be the same size
 
-Images
-- I'm not sure im sold on Cloudinary since it requires a login an its confusing
+Decide how to handle Sub Page Nav and TOC
 
 Test all page types in Mobile
 
@@ -12,13 +9,16 @@ Timeline
 - Bring the timeline up to date 
 
 House Rules
-- finish porting all the house rules over
+- Combine Enchanting and Crafting mechanics
 
 Setting Lore
 - Finish porting that over
 
 About page
-- Talk about the LLC and the Homebrew nature of the campaign
+- LLC
+- Homebrew nature of the campaign
+- Donations
+- Rolepositive
 
 Homepage
 - Advertise Merch / Twitch / Donations etc
@@ -39,3 +39,12 @@ Meta
 
 After Publish
 - Submit to search engines
+
+- Spoiler Alert DM Lore
+-- Deep dive on stuff like "the locknerian ritual" or "atecna the mad" and the "mock sun"
+--- to reveal secrets of the setting
+
+
+
+Chapter 2 and 3 Summary
+- Update timeline
