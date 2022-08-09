@@ -30,52 +30,9 @@ Common, Dwarven, Gnome, Grung, Elven, Beast
 
 ## Points of Interest
 
-### The Groves
-
-#### Wolf Grove
-
-Home to the players.
-
-<div class="flex flex-wrap">
-Before the Orcs
-<a href="https://res.cloudinary.com/dehtu15lz/image/upload/v1611806361/Locations/Wolf_Grove_xubkcy.jpg" target="_blank">
-  <img data-src="https://res.cloudinary.com/dehtu15lz/image/upload/ar_1:1,bo_5px_solid_rgb:0d0d0d,c_fill,g_auto,r_max,w_1000/v1611806361/Locations/Wolf_Grove_xubkcy.jpg" width="310" height="310" class="lazyload mr-auto" />
-</a>
-Orc Occupation
-<a href="https://res.cloudinary.com/dehtu15lz/image/upload/v1616428205/Locations/Wolf_Grove__Grim_Gash_1_oxluho.jpg" target="_blank">
-<img data-src="https://res.cloudinary.com/dehtu15lz/image/upload/ar_1:1,bo_5px_solid_rgb:0b0b0b,c_fill,g_auto,r_max,w_1000/v1616428205/Locations/Wolf_Grove__Grim_Gash_1_oxluho.jpg" width="310" height="310" class="lazyload mr-auto" />
-</a>
-</div>
-
-#### Umbrage Grove
-
-<div class="flex flex-wrap mt-2">
-<div class="w-1/3 mr-10">
-  Once a grove of the Spirit Mother, Umbrage Grove has recently fallen to the shadowmen. The fate of it's elder is still unknown, but the betrayal was lead by Lebanon Glambrina and the falled Gerald Stumpton.
-</div>
-<a href="https://res.cloudinary.com/dehtu15lz/image/upload/v1611806361/Locations/Umbrage_Grove_prlqkj.jpg" target="_blank">
-<img data-src="https://res.cloudinary.com/dehtu15lz/image/upload/ar_1:1,bo_5px_solid_rgb:040404,c_fill,g_auto,r_max,w_1000/v1611806361/Locations/Umbrage_Grove_prlqkj.jpg" width="310" height="310" class="lazyload mr-auto" />
-</a>
-</div>
-
-#### Coming Soon
-
-* Mother's Grove
-
-  * \[Map Not Yet Available]
-* Snakeshead Grove
-
-  * \[Map Not Yet Available]
-* Pyre Grove
-
-  * \[Map Not Yet Available]
-* The Lost Grove
-
-  * \[Map Not Yet Available]
-
 ### The Black
 
-The Spirit Mother provides the light of the violecent plants to guide and protect her children in the unnaturally dark forest. The parts of the forest beyond her light are known simply as 'The Black'. Home to shadowmen and other dark horrors.
+The Spirit Mother provides the light of the violescent plants to guide and protect her children in the unnaturally dark forest. The parts of the forest beyond her light are known simply as 'The Black'. Home to shadowmen and other dark horrors.
 
 ### The Spirit Gardens
 
@@ -85,54 +42,33 @@ The Groves of Roudgara Forest protect secret sites where the Druids among their 
 
 ### The Blight Sisters
 
-The Blight Sister are profaned dryads that, if you believe the stories of Ludwig The Leprechaun, predate even the Spirit Mother. They hail from an ancient time when the forest held a different name and druids worshipped the Acorn God, also known as the Forest Father. A plague took root within the forest shortly after the Forest Father disappeared. Desperation to find a cure lead to many atrocities both among the mortals and in time the fae.
+The Blight Sister are profaned dryads that, if you believe the stories of Ludwig The Leprechaun, predate even the Spirit Mother. They hail from an ancient time when the forest held a different name and druids worshipped the Acorn God, also known as the Forest Father. 
 
-A satyr named Tut was father to the three dryad sisters Joy, Purity, and Kindness. As the plague spread from mortal to fae with no cure to be found; Tut turned to darker forces to save his daughters.
-
-To save his daughter Purity, Tut sacrificed her most loved unicorn to the profane. Painting her tree in its blood and planting the unicorn's severed magical horn in her roots. Purity was horrified by her father's actions but when he bid her drink of the beloved unicorn's blood and eat of its flesh she obeyed. With every bite, she grew stronger and Purity became Corruption. Her tree is now forever marred in gore, with roots that hunger for flesh.
-
-It was Corruption who told her father of her sister Joy's mortal lover. So, to her tree, Tut nailed the mortal by the wrists and feet. Joy could only watch on as her love died in agony, his cries nothing more than prayers to the profane. with his last breath, their hearts broke as one, but with every tear Joy shed upon the earth, her illness abated. So cured, Joy became Misery. Her tree took to rot until it was hallow and could bear no leaves. Then it split open to claim the decayed body of her love, who sat within Misery's tree like a throne. The bark of her tree fractured into spikes to ward off any other from drawing near. Misery feeds on pain.
-
-The following night Corruption and Misery conspired with Tut to cure their youngest sister, Kindness.
-
-A healer of some renown among the forest, Kindness was unaware of her father's actions as she was tending to the pain of the mortals, despite her own. Misery could feel the pain of a lone woman, a merciful old witch afflicted with the disease. Corruption could smell the disease on her and both knew she had little time left. Tut brought Kindness to the woman, so that she may ease her departure but when Kindness arrived Corruption and Misery were already at her side. Astonished at her sister's health, Corruption told her that if she only drank of the woman's blood, her own illness would end. Misery, with great joy, told her it was true but that the woman would need to be awake as the deed was done. Kindness refused, for she would not benefit from the pain of others, but her loving father swore that when the deed was done they would have the power to cure the rest. For this one sacrifice, no other would perish of this terrible disease.
-The witch wept upon seeing kindness and bid her to sing and ease her pain, but as kindness's lips neared her ear all the witch received was pain. Yet, with every gulp of the shocked woman's blood Kindness eased her own pain. As the last drop of blood passed Kindness's lips she became Betrayal. Her tree twisted, bent, and split into two with a shared trunk. Furthermore, Betrayal is said to have two mouths. One that sweetly sings, and one that lies. Betrayal feeds on blood.
-
-As for Tut, he had one last profane act to perform. For himself, he sacrificed the Forest Father's followers. As the last of the druids perished upon the sacrificial altar; Tut, a Satyr like any other, lost all love of revelry and song. Of the illness, he was cured, but little remained of his life worth living for. Alone among the bodies of those betrayed, he merely wept. He wept for his daughters, he wept for his followers, but to none did he weep more than himself. To his horror, Tut could not die. Nor could he leave the druid's cavern temple. With every passing day, Tut became Regret.
-
-### Auntie of the Unclean
-
-Little is known about Auntie of the Unclean. It would seem she is served by were-rats, or at least one goblin were-rat. As the were-rat was sent to barter for the tears the party required to purify one of the blight sisters. Duped with fake tears the were-rat told the party:
-
-“What Betrayal seeks Corruption will give you. There is a collapsed cave that bars the entrance to an ancient betrayal of Misery. They seek the natural born son of Myrcella and the vampire which he staked. Tharon is the son of Myrcella and was turned to stone upon staking Demitri, childer of Torquill” - Wererat
-
-### Lady of Thorns
-
-A leader, perhaps, of the Shadowmen. In private messages obtained from captured shadowmen the authors ended the missives "In service to our Lady of Thorns"
+They have demonstrated a deep connection and great power over their territories within the forest.
 
 ### The Spirit Mother
 
-Goddess and gaurdian of the forest. The Spirit Mother is said to be the awakened spirit of Myrcella Roudgara, an Irishne elf that lead a rebellion against King Torquill Von Demillo of Ravished. Her life and her rebellion were ended when she was bound and burned upon a sacred tree. The druids of the forest serve her and her wrestless quest for vengeance.
+Goddess and guardian of the forest. The Spirit Mother is said to be the awakened spirit of Myrcella Roudgara, an Irishne elf that lead a rebellion against King Torquill Von Demillo of Ravished. Her life and her rebellion were ended when she was bound and burned upon a sacred tree. The druids of the forest serve her and her restless quest for vengeance.
 
 ### Gnomes
 
-Forest Gnomes fled to the area during the Dragon Wars but have mostly been bred out by Rock Gnomes. The common Gnomes to the forest now are predominantly craftsmen who enjoy the protection of the groves while they experiment with the rare natural resources found in the forest.
+Forest Gnomes fled to the area during the Dragon Wars but have mostly been bred out by Rock Gnomes. The common Gnomes in the forest now are predominantly craftsmen who enjoy the protection of the groves while they experiment with the rare natural resources found in the forest.
 
 ### The Grung
 
-The Grung honor the Spirit Mother in their own way, but they do not organize in groves or practice druidcraft as the other's do. They live in cities built on the high branches of massive trees, using local Goblinoids as slaves.
+The Grung honor the Spirit Mother in their own way, but they do not organize in groves or practice druid craft as the others do. They live in cities built on the high branches of massive trees, using local Goblinoids as slaves.
 
 They also engaged in trade with factions outside of the Forest, such as gnoll slavers from the Forgotten Valley. This allowed the groves to remain hidden from the outside world but still engage in trade for foreign goods while also keeping the goblin population controlled.
 
 That was before it was discovered they were selling the curse Evil waters in secret. The Spirit Mother's vengeance was dispatched upon the leaders of the grung, who were bound to trees and left to dry out in public display so that future generations would know and respect her ways. The groves also took a vote and determined to end their trade relations with the grung, opting to engage in trade directly at the risk of their obfuscation from the outside world.
 
-Abandoned, reviled, and broke the grung now contend with rebelious slaves, goblin raids, political upheaval, and a fracturing society.
+Abandoned, reviled, and broken the grung are rarely seen these days.
 
 ### Shadowmen
 
 Fearsome druidic tribes of the Black. Rarely seen until recently. Some say there are merely men like any other but the elders caution against such hubris. The Shadowmen are enemies of the Spirit Mother and abhor her light. Venture softly off the illuminated paths of the forest.
 
-After an attack on the Spirit Garden of Wolf Grove, its been revealed that the shadowmen can claim the loyalty of others by infecting them with Darkweed. Curing this affliction requires a rather expensive spell, Greater Restoration.
+After an attack on the Spirit Garden of Wolf Grove, it's been revealed that the shadowmen can claim the loyalty of others by infecting them with Darkweed. Curing this affliction requires a rather expensive spell, Greater Restoration.
 
 ### The Beast Kings
 
@@ -142,38 +78,38 @@ Even the beasts answer to the Spirit Mother. The Beast Kings are awakened animal
 
 The veiled mountains are so-called due to the thick mists, where freezing ice meets desert heat, that blankets them. The Dwarves of these mountains emerge from their earthen kingdoms only on occasion to trade with Umbrage Grove and from there the rest of the forest.
 
-### The Goblins
+### The Tarsier
 
-Goblins are everywhere and the forest is no different.
+A small race of bardic creatures. Corruption had turned them all into Goblins, but upon her purification so to was the Tarsier returned to their natural state. At least physically. The psychological impacts may take some time.
 
 ## Unique Flora & Fauna
 
 ### Flora
 
-Violecent plants grow low to the ground at the base of trees and light the dense forest as the thick canopy lets little natural light in. Several types of violecent can be identified by their unique glow. Each type has different traits that the druids have learned to harness in a variety of ways.
+Violescent plants grow low to the ground at the base of trees and light the dense forest as the thick canopy lets little natural light in. Several types of violescent can be identified by their unique glow. Each type has different traits that the druids have learned to harness in a variety of ways.
 
-* Red Violecent
+* Red Violescent
 
-  * The liquid squeezed out of a Red Violecent root is highly poisonous and used to treat the Druids blow darts and spears. Like all Violecent pedals they can be crushed into a paste and used to paint the faces of druid warriors. Causing them to glow crimson in the dark forests as they stalk their prey.
-* Orange Violecent
+  * The liquid squeezed out of a Red Violescent root is highly poisonous and used to treat the Druids blow darts and spears. Like all Violecent pedals, they can be crushed into a paste and used to paint the faces of druid warriors. Causing them to glow crimson in the dark forests as they stalk their prey.
+* Orange Violescent
 
   * Healing properties
-* Green Violecent
+* Green Violescent
 
   * Considered sacred.
-* Blue Violecent
+* Blue Violescent
 
   * Poison
-* Purple Violecent
+* Purple Violescent
 
   * Potent aphrodisiac
-* Black Violecent
+* Black Violescent
 
 ### Fauna
 
 #### Head Hunter Spiders
 
-Head-sized spiders that spin razor-sharp, nearly invisible, webs in straight lines connecting trees along forest walking paths. Should someone run past the razor web, and become decapitated, the spider nests within the neck of the corpse. Pulling the head down over the top of it, it can then animate the body and infiltrate human society. These spiders are sacred to the Spirit Mother and only found in the Roudgara Forest.
+Head-sized spiders that spin razor-sharp, nearly invisible, webs in straight lines connecting trees along forest walking paths. Should someone run past the razor web, and become decapitated, the spider nests within the neck of the corpse. Pulling the head down over the top of it, it can then animate the body and infiltrate human society. These spiders are sacred to the Spirit Mother and are only found in the Roudgara Forest.
 
 #### Spider Bear
 
@@ -191,7 +127,7 @@ Flesh-eating fish that lay tiny nearly invisible eggs that float on the surface 
 
 ### The Hunt
 
-When a child comes of age and graduates their basic training (Reaches level 1) they are sent on a hunt...\[ coming soon ]
+When a child comes of age and graduates from their basic training (Reaches level 1) they are sent on a hunt. They are to hunt and kill a single animal to bring back for the feast, it is believed that the animal chooses them as well. At the end of the hunt a bond will form between the child, now an adult, and the beast they hunted. This bond allows them to communicate with all beasts of that type.
 
 ### Mother's Day
 
