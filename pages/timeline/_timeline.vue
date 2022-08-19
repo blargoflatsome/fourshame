@@ -48,6 +48,18 @@ export default {
     }
     return { post };
   },
+  head(){
+    return {
+      title: `Timeline | 4 Shame Not Honor`,
+      meta: [
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: "Learn the history of Urroth laid out in an easy to read timeline."
+        }
+      ]
+    }
+  }
   computed: {  
     sortedData() {
       const aeYears = this.post.years.filter(({era})=>era=='ae').sort((a,b) => this.sortByYearAsc(a,b))

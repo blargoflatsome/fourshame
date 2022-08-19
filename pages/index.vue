@@ -29,8 +29,8 @@ export default {
       title: `4 Shame Not Honor`,
       meta: [
         {
-          hid: 'description',
-          name: 'description',
+          hid: 'og:description',
+          name: 'og:description',
           content: "We are a homebrew D&D twitch stream"
         }
       ]

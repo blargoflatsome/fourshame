@@ -19,5 +19,21 @@ export default {
     }
     return { post };
   },
+  head() {
+    if(this.post.metaDescription) {
+      return {
+        title: `${this.post.title} | 4 Shame Not Honor`,
+        meta: [
+          {
+            hid: 'og:description',
+            name: 'og:description',
+            content: this.post.metaDescription,
+          }
+        ]
+      } 
+    }
+
+    return { title: `${this.post.title} | 4 Shame Not Honor` }
+  }
 }
 </script>
