@@ -9,24 +9,13 @@ main
           class="year relative py-3 px-10 my-10 w-1/2"
           :class="position(event.majorEvent)"  
         )
-          div(class="body relative py-5 px-6 border border-accent-dark rounded bg-white" :class="{'z-10': isActive != index}")
-            div(
-              @click="isActive = index" 
-              class="text-pos cursor-pointer"
-            ) [ expand ]
-            div(:class="{'fixed top-0 left-0 bottom-0 right-0 bg-white h-full overflow-y-scroll z-20': isActive == index}") 
-              button(
-                  v-if="isActive == index"
-                  @click="isActive = null" 
-                  type="button" 
-                  class="z-50 border text-3xl mr-5 mt-3"
-                ) X 
-              div(:class="{'container p-3': isActive == index}")                                                                  
-                h2(:class="{'text-pos': isActive != index}")
-                  | {{event.year}}&nbsp;
-                  span(class="uppercase") {{event.era}}       
+          div(class="body z-10 relative py-5 px-6 border border-accent-dark rounded bg-white")
+            div                                                                
+              h2
+                | {{event.year}}&nbsp;
+                span(class="uppercase") {{event.era}}       
 
-                div(class="text-black" v-html='$md.render(event.overview)')
+              div(class="text-black" v-html='$md.render(event.overview)')
 
         template(v-if="event.events")
           div(          
@@ -37,27 +26,14 @@ main
           )
             div(
               v-if="bullet.body"
-              class="body relative py-5 px-6 border border-accent-dark rounded bg-white" 
-              :class="{'z-10': isActive != `m-${x}`}"
+              class="body z-10 relative py-5 px-6 border border-accent-dark rounded bg-white" 
             )
-              div(
-                  @click="isActive = `m-${x}`" 
-                  class="text-pos cursor-pointer"
-              ) [ expand ]
-              div(:class="{'fixed top-0 left-0 bottom-0 right-0 z-20 bg-white h-full overflow-y-scroll': isActive == `m-${x}`}") 
-                div(:class="{'container p-3': isActive == `m-${x}`}")     
-                  button(
-                    v-if="isActive == `m-${x}`"
-                    @click="isActive = null" 
-                    type="button" 
-                    class="z-50 text-3xl mr-5 mt-3"
-                  ) X
-                div(class="flex" :class="{'text-pos': isActive != `m-${x}`}")
-                  h2(class="leading-none self-end m-0")
-                    | {{event.year}}&nbsp;
-                    span(class="uppercase") {{event.era}}    
-                  h3(class="ml-3 self-end leading-none") The {{ monthName(bullet.month) }} {{yearName(event.year)}} 
-                div(class="text-black" v-html='$md.render(bullet.body)')
+              div(class="flex")
+                h2(class="leading-none self-end m-0")
+                  | {{event.year}}&nbsp;
+                  span(class="uppercase") {{event.era}}    
+                h3(class="ml-3 self-end leading-none") The {{ monthName(bullet.month) }} {{yearName(event.year)}} 
+              div(class="text-black" v-html='$md.render(bullet.body)')
 </template>
 
 <script>
@@ -71,11 +47,6 @@ export default {
       error({ message: "Timeline post not found" });
     }
     return { post };
-  },
-  data() {
-    return {
-      isActive: null
-    };
   },
   computed: {  
     sortedData() {
@@ -92,11 +63,8 @@ export default {
     sortByYearAsc(a,b) {
       const year1 = parseInt(a.year) 
       const year2 = parseInt(b.year)
-      if(year1 == year2) {
-        if(a.isMajorEvent) return 1
-        if(b.isMajorEvent) return  -1
-        return 0
-      }
+      if(a.isMajorEvent) return 0
+      if(b.isMajorEvent) return  -1
  
       if(year1 < year2) return 1
 
@@ -107,8 +75,8 @@ export default {
       const year2 = parseInt(b.year)
       if(year1 == year2) {
         if(a.isMajorEvent) return 1
-        if(b.isMajorEvent) return  -1
-        return 0
+        if(b.isMajorEvent) return  0
+        return 1
       }
  
       if(year1 > year2) return 1
