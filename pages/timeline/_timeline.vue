@@ -59,7 +59,7 @@ export default {
         }
       ]
     }
-  }
+  },
   computed: {  
     sortedData() {
       const aeYears = this.post.years.filter(({era})=>era=='ae').sort((a,b) => this.sortByYearAsc(a,b))
