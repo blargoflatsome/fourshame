@@ -3,7 +3,7 @@ thumbnail: /img/dre-token.png
 name: Dré
 subtitle: Player of Emerson
 ---
-A DM in players clothing, André has been playing and DMing D&D for almost 20 years. Some of the highlights of my D&D resume:
+A DM in players clothing, André has been playing and DMing D&D for over 20 years. Some of the highlights of my D&D resume:
 
 * Has DM'd 4 separate campaigns to meaningful completion
 * Has played with the same group of players (+ or - a player here and there) for about 15 years
