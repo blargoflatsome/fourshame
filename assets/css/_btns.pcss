@@ -1,29 +1,14 @@
 @layer components {
   .btn {
-    @apply text-center font-semibold rounded py-2 px-4 border border-accent-light text-white bg-accent-dark;
+    @apply block text-xl text-center font-semibold rounded py-2 px-4 border border-accent-light text-white bg-accent-dark;
     &:hover {
-      @apply border-primary-300 bg-primary-800 text-white;
-    }
-
-    &.btn--active {
-      @apply text-white bg-primary border-primary;
-      &:hover {
-        @apply bg-primary-600;
-      }
-    }
-    &.btn--disabled,
-    &[disabled='true'],
-    &:disabled {
-      @apply text-gray-400 cursor-not-allowed;
+      @apply bg-accent-lighter text-white;
     }
   }
-
-  .light {
-    & .btn {
-      @apply border-primary-600 text-primary-800 bg-gray-200;
-      &:hover {
-        @apply border-primary bg-primary-200 text-primary-900;
-      }
+  .btnSecondary {
+    @apply block text-xl text-center font-semibold rounded py-2 px-4 border border-accent-dark text-black bg-white;
+    &:hover {
+      @apply bg-accent-lighter text-white;
     }
   }
 }
