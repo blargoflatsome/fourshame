@@ -13,7 +13,7 @@ main
           a(href="https://www.paypal.me/4Shame" target="_blank"  class="btnSecondary w-full") $upport Us
           a(href="https://www.twitch.tv/4shamenothonor" target="_blank"  class="btnSecondary w-full") Watch Us
                 
-        a(href="https://www.twitch.tv/subs/4shamenothonor" target="_blank" class="btn w-full") Subscribe
+        a(href="https://www.twitch.tv/subs/4shamenothonor" target="_blank" class="btn w-full") Subscribe To Twitch
      
       div(id="discord" class="flex flex-col justify-between justify-end p-3 border-2 text-center rounded flex-1")
         h2 Discord
@@ -28,7 +28,7 @@ main
         h2 Join Our Newsletter
         p We may not know what to do with it yet, but someday you'll be happy you did!          
         input(type='email' placeholder="Enter Your Email" class="border w-full p-2 mb-4") 
-        button(type="submit" class="btn w-full") Submit
+        button(type="submit" class="btn w-full") Join Our Newsletter
 
     div(class="p-3 my-10 border-t-2 border-b-2 rounded")
       h2 4ShameNotHonor LLC
