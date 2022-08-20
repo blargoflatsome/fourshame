@@ -30,8 +30,8 @@ export default {
       title: `The Players | 4 Shame Not Honor`,
       meta: [
         {
-          hid: 'description',
-          name: 'description',
+          hid: 'og:description',
+          name: 'og:description',
           content: "Learn more about the players of 4 Shame Not Honor!"
         }
       ]
