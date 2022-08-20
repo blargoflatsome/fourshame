@@ -6,7 +6,8 @@ main
 
       div(id="twitch" class="flex flex-col justify-between justify-end p-3 border text-center rounded-sm flex-1")
         h2 Twitch.tv/4ShameNotHonor
-        p A brutal, persistant, homebrew world with lovely and lively players and a drunk dungeon master; what more could you ask for?!
+        p A brutal, persistant, homebrew world with lovely, lively players and a drunk dungeon master
+        p What more could you ask for?!
         
         div(class='flex justify-center flex-row space-x-4 py-2')    
           a(href="https://www.paypal.me/4Shame" target="_blank"  class="btnSecondary w-full") $upport Us
