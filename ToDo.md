@@ -5,10 +5,36 @@ MVP
 - Publish
 
 
+Notes from Dre
 
+Homepage 
+- Needs to have hooks and push people to twitch/merch
+- Discord
+- Merch
+- Twitch Subs - https://www.twitch.tv/subs/4shamenothonor
+- newsletter - mailchimp
+- buttons cuz duh
+
+What do we want people to do when they get to our site?
+Newsletter ??
+
+Need cohesive artwork/branding
+youtube
+
+Re-brand with the second campaign
+Look on fiverr 
+
+Biome - for each location generally
+- forest
+- Swamp
+- City
+- Dreamscape
+- Uruk
 
 Characters
 - Search Bar
+
+
 
 Decide how to handle Sub Page Nav and TOC
 
