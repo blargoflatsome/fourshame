@@ -21,7 +21,6 @@ div
             img(src="../assets/social-icons/twitch.png" alt="Twitch" width="20")
           a(href="https://www.paypal.me/4Shame")
             img(src="../assets/social-icons/paypal.png" alt="Support Us" width="20")
-      
       div(data-netlify-identity-button) 
 
       div
