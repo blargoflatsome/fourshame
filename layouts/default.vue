@@ -6,7 +6,7 @@ div
       nuxt-link(to="/")
         img(src="@/assets/images/4-shame-not-honor-logo.png" alt="4 Shame Logo")
       p(class="hidden w-full md:block text-center text-3xl") Homebrew D&amp;D Every Sunday on Twitch!
-  
+
   div(class="container m-auto py-5 p-3")
     nuxt(keep-alive)
     
@@ -22,6 +22,9 @@ div
             img(src="../assets/social-icons/twitch.png" alt="Twitch" width="20")
           a(href="https://www.paypal.me/4Shame")
             img(src="../assets/social-icons/paypal.png" alt="Support Us" width="20")
+      
+      div(data-netlify-identity-button) 
+
       div
         strong Support Us
         ul(class="text-xs")
@@ -31,6 +34,8 @@ div
 
 <script>
 import Nav from "@/components/global/nav.vue";
+
+// div(data-netlify-identity-menu)
 
 export default {
   name: "App",

@@ -2,12 +2,14 @@
 main
   section
     div(v-html='$md.render(posts.content)')
+  
     //- iframe(
     //-     src="https://player.twitch.tv/?channel=4shamenothonor&parent=fourshame.com&muted=true"
     //-     height="720"
     //-     width="1280"
     //-     allowfullscreen
     //- )
+    
 </template>
 
 <script>

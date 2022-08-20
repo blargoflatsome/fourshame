@@ -72,7 +72,7 @@
     @apply bg-accent-dark text-white;
   }
 
-  tbody > tr:not(:last-child) {
+  tbody > tr {
     @apply border-b bg-white text-black;
   }
 
@@ -118,14 +118,27 @@
 }
 
 /* With no author its just a Note */
-blockquote:not(.hasAuthor) {
-  @apply p-3 my-3 text-left text-lg text-gray-dark bg-gray-lightest border-l-2 border-r-2 border-gray-light;
+blockquote {
+  @apply relative font-bold text-sm text-center p-8 border-l-4 border-gray-300 rounded-lg;
+  color: theme("colors.gray.base");
+  max-width: max-content;
+  margin: 2.5rem !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
 }
 
-blockquote:not(.hasAuthor) p {
-  margin: 0;
-  padding: 0;
+blockquote:after {
+  content: "\201D";
+  color: theme("colors.gray.300");
+  font-family: "Sanchez", serif;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 4rem;
+  font-style: italic;
+  line-height: 3rem;
 }
+
 
 /* Markdown Classes */
 .image-right {

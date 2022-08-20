@@ -61,7 +61,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: "Learn more about the Roudgara Campaign's characters",
+          content: "Learn more about the Roudgara Campaign's cast of characters",
         }
       ],
     }

@@ -28,6 +28,16 @@ export default {
         hid: 'description',
         name: 'description',
         content: SITE_INFO.sitedescription || process.env.npm_package_description || ''
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: '/_nuxt/assets/images/4-shame-not-honor-logo.png'
+      },
+    ],
+    script: [
+      {
+        src: "https://identity.netlify.com/v1/netlify-identity-widget.js"
       }
     ],
     link: [
@@ -39,11 +49,11 @@ export default {
       {
         rel: 'preload',
         as: 'style',
-        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap'
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap',
         media: 'print',
         onload: `this.media='all'`
       }
@@ -51,7 +61,7 @@ export default {
     noscript: [
       {
         innerHTML:
-          '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">'
+          '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap">'
       }
     ],
     __dangerouslyDisableSanitizers: ['noscript']

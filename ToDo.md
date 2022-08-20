@@ -1,3 +1,12 @@
+MVP
+- Create user accounts for each person, or share a login/pass to get in
+- Have the current content styled for mobile/etc
+- show to the group for review
+- Publish
+
+
+
+
 Characters
 - Search Bar
 

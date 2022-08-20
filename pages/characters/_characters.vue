@@ -27,8 +27,13 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: this.post.subtitle
-        }
+          content: `${this.post.name} ${this.post.subtitle}`
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: this.post.thumbnail
+        },
       ]
     }
   }
