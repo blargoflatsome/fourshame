@@ -17,11 +17,12 @@ main
      
       div(id="discord" class="flex flex-col justify-between justify-end p-3 border-2 text-center rounded flex-1")
         h2 Discord
-        p Want to know us better? Join our discord!
-        ul
-          li Stay informed
-          li Provide feedback
-          li Chat with us midweek
+        div 
+          pWant to know us better? Join our discord!
+          ul(class="mx-auto max-w-max")
+            li.text-left Stay informed
+            li.text-left Provide feedback
+            li.text-left Chat with us midweek
         a(href="" target="_blank" class="btn") Join Our Discord
      
       div(id="newsletter" class="flex flex-col justify-between justify-end p-3 border-2 text-center rounded flex-1")

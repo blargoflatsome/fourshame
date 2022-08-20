@@ -3,7 +3,7 @@ div
     div(class="relative md:flex md:space-x-4")
       div
         slot
-      ul(v-if="level2.length > 0" class="hidden md:block m-0 p-0 sticky top-4 self-start text-sm")
+      ul(v-if="level2.length > 0" class="hidden list-none md:block m-0 p-0 sticky top-4 self-start text-sm")
         li(class="font-bold whitespace-nowrap pb-1 mb-1 border-b border-accent-dark") Table of Contents
         li(
             v-for="(tab) in level2"                

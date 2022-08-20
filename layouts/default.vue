@@ -4,8 +4,7 @@ div
     div(class="container m-auto flex text-white items-center justify-start ")
       Nav(class="mr-5")      
       nuxt-link(to="/")
-        img(src="@/assets/images/4-shame-not-honor-logo.png" alt="4 Shame Logo")
-      p(class="hidden w-full md:block text-center text-3xl") Homebrew D&amp;D Every Sunday on Twitch!
+        img(src="@/assets/images/4-shame-not-honor-logo.png" alt="4 Shame Logo")      
 
   div(class="container m-auto py-5 p-3")
     nuxt(keep-alive)

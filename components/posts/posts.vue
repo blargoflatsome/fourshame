@@ -1,5 +1,5 @@
 <template lang="pug">
-ul(v-if="posts" class="hidden m-0 text-sm border-t border-b border-accent-dark px-3 py-1 rounded md:block")
+ul(v-if="posts" class="hidden m-0 list-none text-sm border-t border-b border-accent-dark px-3 py-1 rounded md:block")
   li(
     v-for="(post, index) in posts"
     :key="index"
