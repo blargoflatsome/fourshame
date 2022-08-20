@@ -46,7 +46,7 @@ main
           button(type="submit" class="btn w-full") Join Our Newsletter
 
     div(class="p-3 my-10 border-t-2 border-b-2 rounded")
-      h2 4ShameNotHonor LLC
+      p(class="header") 4ShameNotHonor LLC
       p Kayla and Jordan formed the 4ShameNotHonor LLC after our Sunday D&amp;D game gained enough attention on twitch to go affiliate during the onset of the pandemic. Thankfully, we have managed to keep it going even as we all had to return to work and resume normal schedules. Give or take a few cast changes along the way.
       p We are excited to see our stream grow, but mostly we just enjoy the opportunity it has given us to enjoy Sunday evenings with our friends and to make new ones.
     
