@@ -11,16 +11,6 @@ nav
         div(class="flex items-center justify-end border-b")
           div(@click="show=false" class="cursor-pointer") X
         ul          
-          li 
-             router-link(
-              to="/about" 
-              class="inline-block"              
-            ) About
-          li
-            router-link(
-              to="/players" 
-              class="inline-block"              
-            ) The Players 
           li
             router-link(
               to="/characters" 
