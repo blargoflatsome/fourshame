@@ -10,7 +10,7 @@ section( v-if="posts")
         div(v-if="post.thumbnail" class="mx-auto md:ml-0 md:mr-3 lg:mr-0 lg:rounded lg:border-r-2 lg:border-black lg:pr-2" style="width:150px;height:auto;")
             img(v-if="post.thumbnail" :src='post.thumbnail' width="280" height="280" class="w-full h-auto")
         div(class="flex flex-col flex-1 my-4 lg:my-0 lg:ml-4 leading-snug")
-            p(class="header") {{ post.name }}        
+            p(class="header border-b-2 border-black") {{ post.name }}        
             nuxt-content(:document="post")
 </template>
 

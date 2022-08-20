@@ -9,14 +9,14 @@ main
         class="flex flex-col justify-between justify-end p-3 text-center flex-1"
         style="background: url(/img/twitch.png);background-repeat: no-repeat;"
       )
-        h2 Twitch
+        p(class="header") Twitch
         
         p A brutal, persistant, homebrew world with lovely, lively players and a drunk dungeon master
         p What more could you ask for?!
         
-        div(class='flex justify-center flex-row space-x-4 py-2')    
-          a(href="https://www.paypal.me/4Shame" target="_blank"  class="btnSecondary w-full") $upport Us
-          a(href="https://www.twitch.tv/4shamenothonor" target="_blank"  class="btnSecondary w-full") Watch Us
+        div(class='flex flex-col justify-center py-2 space-y-4 md:space-y-0  md:space-x-4 md:flex-row')    
+          a(href="https://www.paypal.me/4Shame" target="_blank"  class="btnSecondary w-full whitespace-nowrap") $upport Us
+          a(href="https://www.twitch.tv/4shamenothonor" target="_blank"  class="btnSecondary w-full whitespace-nowrap") Watch Us
                 
         a(href="https://www.twitch.tv/subs/4shamenothonor" target="_blank" class="btn w-full") Subscribe To Twitch
      
@@ -25,7 +25,7 @@ main
         class="flex flex-col justify-between justify-end p-3 text-center flex-1"
         style="background: url(/img/discord.png);background-repeat: no-repeat;"
       )
-        h2 Discord
+        p(class="header") Discord
         div 
           p Want to know us better? Join our discord!
           ul(class="mx-auto max-w-max")
@@ -39,7 +39,7 @@ main
         class="flex flex-col justify-between justify-end p-3 text-center flex-1"
         style="background: url(/img/envelope.png);background-repeat: no-repeat;"
       )
-        h2 Newsletter
+        p(class="header") Newsletter
         p We may not know what to do with it yet, but someday you'll be happy you did!          
         div
           input(type='email' placeholder="Enter Your Email" class="border w-full p-2 mb-4") 
