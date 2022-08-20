@@ -27,8 +27,9 @@ main
       div(id="newsletter" class="flex flex-col justify-between justify-end p-3 border-2 text-center rounded flex-1")
         h2 Join Our Newsletter
         p We may not know what to do with it yet, but someday you'll be happy you did!          
-        input(type='email' placeholder="Enter Your Email" class="border w-full p-2 mb-4") 
-        button(type="submit" class="btn w-full") Join Our Newsletter
+        div
+          input(type='email' placeholder="Enter Your Email" class="border w-full p-2 mb-4") 
+          button(type="submit" class="btn w-full") Join Our Newsletter
 
     div(class="p-3 my-10 border-t-2 border-b-2 rounded")
       h2 4ShameNotHonor LLC
