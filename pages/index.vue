@@ -54,12 +54,12 @@ main
     
     div(class="flex flex-col my-10 space-y-5 lg:flex-row lg:space-x-10 lg:space-y-0")
       div(id="merch" class="flex flex-col justify-between justify-end p-3 text-center flex-1")
-        h2 Merchandise
+        p(class="header") Merchandise
         p To help fund our efforts, new equipment, upkeep subscriptions, etc we have also created a 4shameNotHonor store on teespring! If you don't see anything you like, feel free to request something on our Discord Server!
         a(href="https://4-shame-not-honor.creator-spring.com" target="_blank" class="btn") Buy Stuff
         
       div(id="partners" class="flex flex-col justify-between justify-end p-3 text-center flex-1")
-        h2 Partnership With RolePositiveGaming
+        p(class="header") Partnership With RolePositiveGaming
         div
           p Speaking of new friends, and helping our stream grow, we have joined our community with the very talented people over on RolePositiveGaming. Kayla is now a player in their Friday game, and both Jordan and Kayla play in the Monday game.
           p You should absolutely check them out!
