@@ -14,7 +14,7 @@ While Gerald, and many in the forest, believed her unusual features were a bless
 
 It wasn't until her naming day, during a Vision Quest, that the truth of her heritage as one of the profane began to reveal itself. The result of her true parents (Adam and Willow Lee) combined evil deeds. For it was her parents, a mage and a tempter demon, that created the vile armor of the Crimson Guard.
 
-Often raging in the face of graying moral quandaries, she often let her ax do the thinking. In her chaotic pursuit for righteousness among the vengeance-focused teachings of the forest, she quickly earned herself the nickname "slave killer".
+Often raging in the face of graying moral quandaries, she let her ax do the thinking. In her chaotic pursuit for righteousness among the vengeance-focused teachings of the forest, she quickly earned herself the nickname "slave killer".
 
 Muspella suffered many tragedies during her time in the party. While some were of her own doing; such as the damnation of her father's soul before it could be reborn to seek redemption and absolution. Others were due to the machinations of the Blight Sisters. Her mentor and adopted father Gerald Stumpton has been taken over by Betrayal's dark weed, and while under her sway he executed Muspella's budding love; Ash.
 
