@@ -26,7 +26,7 @@
   }
 
   h1 {
-    @apply text-4xl text-accent-darkest mb-5;
+    @apply text-4xl text-accent-darkest border-b border-accent-dark mb-5;
   }
 
   h2 {
@@ -70,12 +70,13 @@
 
   /* Tables */
   table {
-    @apply w-full;
+    @apply my-4 block overflow-x-auto w-full;
   }
 
   thead > tr {
     @apply bg-accent-dark text-white;
   }
+  
 
   tbody > tr {
     @apply border-b bg-white text-black;
@@ -85,9 +86,13 @@
     @apply bg-accent-fade text-black;
   }
 
+  th {
+    @apply whitespace-nowrap
+  }
+
   th,
   td {
-    @apply text-left px-3;
+    @apply text-left text-sm md:text-base px-3;
   }
 
   /* Unordered Lists */
@@ -128,12 +133,16 @@
 
 /* With no author its just a Note */
 blockquote {
-  @apply relative font-bold text-sm text-center p-8 border-l-4 border-gray-300 rounded-lg;
+  @apply relative font-bold text-sm text-center p-4 border-l-4 border-gray-300 rounded-lg;
   color: theme("colors.gray.base");
   max-width: max-content;
   margin: 2.5rem !important;
   margin-right: auto !important;
   margin-left: auto !important;
+}
+
+blockquote p {
+  margin: 0;
 }
 
 blockquote:after {

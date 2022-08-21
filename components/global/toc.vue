@@ -1,16 +1,19 @@
 <template lang="pug">
 div
     div(class="relative md:flex md:space-x-4")
-      div
-        slot
-      ul(v-if="level2.length > 0" class="hidden list-none md:block m-0 p-0 sticky top-4 self-start text-sm")
+      ul(class="hidden list-none md:block m-0 p-0 sticky top-4 self-start text-sm pr-2 border-r rounded")
         li(class="font-bold whitespace-nowrap pb-1 mb-1 border-b border-accent-dark") Table of Contents
+        li(
+          v-on:click="goto('top')"
+          class="cursor-pointer pl-2 pb-1 mb-1 border-b border-accent-dark rounded hover:text-accent-dark") Top
         li(
             v-for="(tab) in level2"                
             :key="tab.id"
             v-on:click="goto(tab.id)"
-            class="cursor-pointer pb-1 mb-1 border-b border-accent-dark hover:text-accent-dark"            
+            class="cursor-pointer pl-2 pb-1 mb-1 border-b border-accent-dark rounded hover:text-accent-dark"            
         ) {{ tab.text }}
+      div
+        slot
         
 </template>
 

@@ -72,93 +72,48 @@ export default {
         ...routes,
         {
           name: 'location',
-          path: '/locations',
+          path: '/locations/:article',
           props: {
-            pageTitle: 'Locations',
             pageType: 'location',
           },
           component: resolve(__dirname, 'pagesCustom/articles.vue'),
           chunkName: 'pages/locations',
-          children: [
-            {
-              name: 'Location Article',
-              path: '/location/:article',
-              component: resolve(__dirname, 'pagesCustom/article.vue'),
-              chunkName: 'pages/location',
-            }
-          ]
         },
         {
           name: 'cosmology',
-          path: '/cosmology',
+          path: '/cosmology/:article',
           props: {
-            pageTitle: 'Cosmology',
             pageType: 'cosmology',
           },
           component: resolve(__dirname, 'pagesCustom/articles.vue'),
           chunkName: 'pages/cosmology',
-          children: [
-            {
-              name: 'cosmology Article',
-              path: ':article',
-              component: resolve(__dirname, 'pagesCustom/article.vue'),
-              chunkName: 'pages/cosmology',
-            }
-          ]
         },
         {
           name: 'general',
-          path: '/general',
+          path: '/general/:article',
           props: {
-            pageTitle: 'Urroth',
             pageType: 'general',
           },
           component: resolve(__dirname, 'pagesCustom/articles.vue'),
           chunkName: 'pages/generals',
-          children: [
-            {
-              name: 'Urroth Article',
-              path: ':article',
-              component: resolve(__dirname, 'pagesCustom/article.vue'),
-              chunkName: 'pages/general',
-            }
-          ]
         },
         {
           name: 'blog',
-          path: '/blog',
+          path: '/blog/:article',
           props: {
-            pageTitle: 'Articles',
             pageType: 'blog',
           },
           component: resolve(__dirname, 'pagesCustom/articles.vue'),
           chunkName: 'pages/blogs',
-          children: [
-            {
-              name: 'Articles',
-              path: ':article',
-              component: resolve(__dirname, 'pagesCustom/article.vue'),
-              chunkName: 'pages/blog',
-            }
-          ]
         },
         {
           name: 'houserules',
-          path: '/houserules',
+          path: '/houserules/:article',
           props: {
-            pageTitle: 'House Rules',
             pageType: 'houserule',
           },
           component: resolve(__dirname, 'pagesCustom/articles.vue'),
           chunkName: 'pages/house-rules',
-          children: [
-            {
-              name: 'House Rule',
-              path: '/houserule/:article',
-              component: resolve(__dirname, 'pagesCustom/article.vue'),
-              chunkName: 'pages/house-rule',
-            }
-          ]
         },
       ]
     }
