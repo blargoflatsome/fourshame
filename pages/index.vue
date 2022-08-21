@@ -1,7 +1,10 @@
 <template lang="pug">
 main
+  div(
+    class="w-full flex justify-center items-center border-t-2 border-b-2 bg-accent-dark"
+  )
+    img(src="/img/banner1.jpg" width="1280" height="300")
   section
-    div(class="w-full bg-gray-dark flex justify-center items-center text-white font-bold" style="height:200px") SPLASH IMAGE / VIDEO
     div(class="flex flex-col my-10 space-y-5 lg:flex-row lg:space-x-10 lg:space-y-0")
 
       div(

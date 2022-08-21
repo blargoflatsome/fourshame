@@ -6,8 +6,7 @@ div
       nuxt-link(to="/")
         img(src="@/assets/images/4-shame-not-honor-logo.png" alt="4 Shame Logo")      
 
-  div(class="container m-auto py-5 p-3")
-    nuxt(keep-alive)
+  nuxt(keep-alive)
     
   footer(class="p-3 border-t-4 border-b-4 border-accent-dark bg-gray-100")
     div(class="container m-auto flex space-x-4 text-sm")
