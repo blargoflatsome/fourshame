@@ -39,11 +39,29 @@ main
         class="flex flex-col justify-between justify-end p-3 text-center flex-1"
         style="background: url(/img/envelope.png);background-repeat: no-repeat;"
       )
-        p(class="header") Newsletter
+        span(class="header mt-3") Newsletter
+        span(class="sub") Lend us your email! 
         p We may not know what to do with it yet, but someday you'll be happy you did!          
         div
-          input(type='email' placeholder="Enter Your Email" class="border w-full p-2 mb-4") 
-          button(type="submit" class="btn w-full") Join Our Newsletter
+          // Begin Mailchimp Signup Form
+          #mc_embed_signup
+            form#mc-embedded-subscribe-form.validate(action='https://app.us9.list-manage.com/subscribe/post?u=809f5475c3f22aab5ed40b7b2&id=749d814914&f_id=007609e1f0' method='post' name='mc-embedded-subscribe-form' target='_blank')
+              #mc_embed_signup_scroll
+                div(class="md:flex my-2")
+                  div(class="w-full md:w-2/3")
+                    input#mce-EMAIL(type='email' value='' name='EMAIL' required placeholder="Email Address *" class="border w-full p-1 rounded")
+                    span#mce-EMAIL-HELPERTEXT.helper_text
+                  div(class="flex-shrink")
+                      a(href='http://eepurl.com/h9d75D' title='Mailchimp - email marketing made easy and fun')
+                        img(src='https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg')
+                #mce-responses.clear.foot
+                  #mce-error-response.response(style='display:none')
+                  #mce-success-response.response(style='display:none')
+                // real people should not fill this in and expect good things - do not remove this or risk form bot signups
+                div(style='position: absolute; left: -5000px;' aria-hidden='true')
+                  input(type='text' name='b_809f5475c3f22aab5ed40b7b2_749d814914' tabindex='-1' value='')
+                input#mc-embedded-subscribe(type='submit' value='Join Our Newlsetter' name='subscribe' class="btn w-full")
+          // End mc_embed_signup
 
     div(class="p-3 my-10 border-t-2 border-b-2 rounded")
       p(class="header") 4ShameNotHonor LLC
