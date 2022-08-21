@@ -20,4 +20,4 @@ Muspella suffered many tragedies during her time in the party. While some were o
 
 However, there was no foe more dangerous to Muspella than her own impulses. Before she could learn that Remi discovered a cure for the dark weed that afflicted Gerald, she wandered away from camp in the dead of night... and was never seen again.
 
-Hadriana and Remi would later learn of her passing by the wailing of a banshee.
+Hadriana and Remi would later learn of her passing by the wailing of a banshee. It is largely assumed she met her end in battle within The Black, perhaps lured away by Gerald Stumpton... but no sign of violence was found, nor has her body been recovered.
