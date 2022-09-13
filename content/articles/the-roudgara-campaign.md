@@ -5,7 +5,7 @@ type: general
 description: A summary of the chronicle
 metaDescription: Catch up on the story of The Roudgara Campaign so far
 ---
-## Chapter One
+## Premise
 
 In a cursed forest many years ago there lived 3 dryad sisters; Joy, Purity, and Kindness along with their satyr father Tut. A plague had spread across the forest that no man, beast, or fey could resist. The gods themselves had abandoned the forest, and no natural remedy could be found.
 
@@ -25,14 +25,28 @@ Though these modern druids know little of the trinity once served by Myrcella, t
 
 It is here that our campaign started.
 
+## Chapter One
+
+Our party consists of Hadriana Ravensight (a fisherman's daughter), Isaterra (the first gnome to take up the druidic path), Thaishin (a chosen child of the Spirit Mother and raised by the grove Elder), and Muspella (a mysterious child with horns and cloven hoofs found abandoned in the forest and raised by the barbarian war chief Gerald Stumpton).
+
+
+
+\[ baby Elpis, Vision Quest, Orc War, Travel into the valley, Tor/Fetek, Defeat of Orcs]
+
 ## C﻿hapter Two
+
+As chapter two begins our party is now Hadriana, Remnants of History, and Muspella.
 
 \[﻿The council of Voices, Fall of the Grung, Loss of Umbrage Grove, Discovery of Tharon and Demetri, Purifying Corruption]
 
 ## C﻿hapter Three
 
+As chapter three begins out party is now Hadriana, Remnants of History, and Fang.
+
 \[﻿Battle of Scorch Keep, Discovery and punishment of Fang, Arrival of Bass Note, Fetek, Quest for Remi's memories, Creation of a Necropolis, Defeat of Gammora,  The Mother's Vengeance, Banishment]
 
 ## C﻿hapter Four
+
+As chapter four begins our party is now Hadriana, Remnants of History, Emmerson, with special guest Bass Note.
 
 C﻿heck us out every Sunday over on twitch!
