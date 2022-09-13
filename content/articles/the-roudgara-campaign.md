@@ -26,3 +26,13 @@ Though these modern druids know little of the trinity once served by Myrcella, t
 It is here that our campaign started.
 
 ## C﻿hapter Two
+
+\[﻿The council of Voices, Fall of the Grung, Loss of Umbrage Grove, Discovery of Tharon and Demetri, Purifying Corruption]
+
+## C﻿hapter Three
+
+\[﻿Battle of Scorch Keep, Discovery and punishment of Fang, Arrival of Bass Note, Fetek, Quest for Remi's memories, Creation of a Necropolis, Defeat of Gammora,  The Mother's Vengeance, Banishment]
+
+## C﻿hapter Four
+
+C﻿heck us out every Sunday over on twitch!
