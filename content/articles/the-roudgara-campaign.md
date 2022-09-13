@@ -3,6 +3,7 @@ createdAt: 2022-08-06T21:03:57.817Z
 title: The Roudgara Campaign
 type: general
 description: A summary of the chronicle
+metaDescription: Catch up on the story of The Roudgara Campaign so far
 ---
 ## Chapter One
 
@@ -23,3 +24,15 @@ Despite the laws of Ravished forbidding travel within the forest even to the pre
 Though these modern druids know little of the trinity once served by Myrcella, they claim to be guided by a singular entity known to them as the Spirit Mother. She does not teach them the ways of peace or tranquility, her druids do not respect the balance of Nature or the circle of life. The Spirit Mother knows but one path that all within her canopy follow. The path of vengeance.
 
 It is here that our campaign started.
+
+## C﻿hapter Two
+
+\[﻿The council of Voices, Fall of the Grung, Loss of Umbrage Grove, Discovery of Tharon and Demetri, Purifying Corruption]
+
+## C﻿hapter Three
+
+\[﻿Battle of Scorch Keep, Discovery and punishment of Fang, Arrival of Bass Note, Fetek, Quest for Remi's memories, Creation of a Necropolis, Defeat of Gammora,  The Mother's Vengeance, Banishment]
+
+## C﻿hapter Four
+
+C﻿heck us out every Sunday over on twitch!
