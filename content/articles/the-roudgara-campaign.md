@@ -35,6 +35,22 @@ As the orcs increased their attacks, another outsider was discovered and spared.
 
 Killian knew of the orcs and where they came from, and as repayment for his life and the life of his sister; offered to escort the party out into the Forbidden Valley in order to uncover the source and reasoning for their attacks.
 
+While the journey would prove to be long and incredibly dangerous, each of our heroes brought with them their own baggage. 
+
+Hadriana had learned the truth of her draconic heritage and met the spirit of her mother now bound to a tree within the Spirit Garden. The truth revealed itself by way of the wings that burst out of her back; wings that would have gotten her killed if not for her mother's magic ring that cloaked her draconic features in illusions. So long as she never let anyone get too close, that is.
+
+Isatera and Thaishin had both received gifts in the form of necklaces, gifts found seemingly at random but that granted great power. It was Ludwig, a fey creature, that revealed to the party that the necklaces came from ancient and powerful forces within the forest known as "The Blight Sisters". It was his claim that these sisters were profaned by their father in dark rituals, but that they could be purified.
+
+Muspella learned the truth of her lineage when she was gifted items found with her as a baby. Including a ring that contained the spirit of her father. A spirit that wished to be set free and placed into a new body.
+
+During their time outside of the forest the party met with centaurs, visited the homeland of Gerald Stumpton known as Knossoss the Minotaur city, and detoured to Glandor to meet the lich Victor Dark. 
+
+While in Glandor they learned it was the lich who had been purchasing the cursed water from the grung, and used it to create undead that could work the soil without fear of the arcane storm that ravages the Forbidden Valley. The lich owed a debt to Muspella's father, and agreed to return the man to life but not before an entity known as Charlie Zane, a "tempter demon", revealed himself to rest of the party in secret and offered them their hearts desire if they allowed her father to perish once the ritual was done. 
+
+His temptations were pointless in the end, as it was Muspella herself that condemned her father's soul to damnation. Opting, out of fear of what he might be, to destroy the ring that housed his soul before he could be returned to life. Ending her father's quest for redemption.
+
+Tragedy plagued the party from then on it seems, as Isaterra began clashing more and more with what she perceived to be the immoral choices and chaotic nature of the party. They were nearly to the Bronze City, home of the orcs, when her will lost out and her body was taken over by the blight sister known as Corruption. She attacked the party but was ultimately taken down and stolen away by a mysterious creature named Farlan. Farlan pulled her into the fade, claiming he would help her but that the party needed to get back home and deal with the Blight Sisters.
+
 
 
 \[ baby Elpis, Vision Quest, Orc War, Travel into the valley, Tor/Fetek, Defeat of Orcs]
