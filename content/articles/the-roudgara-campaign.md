@@ -29,6 +29,12 @@ It is here that our campaign started.
 
 Our party consists of Hadriana Ravensight (a fisherman's daughter), Isaterra (the first gnome to take up the druidic path), Thaishin (a chosen child of the Spirit Mother and raised by the grove Elder), and Muspella (a mysterious child with horns and cloven hoofs found abandoned in the forest and raised by the barbarian war chief Gerald Stumpton).
 
+Early in the adventure the forest is invaded by orc outsiders, though due to a language barrier it is unclear as to why. Not that it mattered, the rules were clear. Kill the outsiders. Perhaps, had the party obeyed the rules a lot of suffering could have been avoided but upon discovering one of the orcs was pregnant, a simple choice was made that has altered the path of history forever. The baby was spared, even named. Elpis.
+
+As the orcs increased their attacks, another outsider was discovered and spared. Killian Gren, a member of the Keepers of the Dark, was searching for his sister when he was captured by Gerald Stumpton. The party pressed for staying his execution and helping him find his sister; Chloe. In so doing they discovered that the grung were selling cursed water from The Evil to outsiders. The Spirit Mother's vengeance laid their civilization to waste, but Killian and Chloe were reunited.
+
+Killian knew of the orcs and where they came from, and as repayment for his life and the life of his sister; offered to escort the party out into the Forbidden Valley in order to uncover the source and reasoning for their attacks.
+
 
 
 \[ baby Elpis, Vision Quest, Orc War, Travel into the valley, Tor/Fetek, Defeat of Orcs]
