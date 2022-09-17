@@ -1,5 +1,5 @@
 ---
-thumbnail: /img/killian-gren.png
+thumbnail: /img/killian_token.png
 name: Killian Gren
 subtitle: A member of the Keepers of the Dark
 type: npc
