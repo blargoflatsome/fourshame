@@ -3,4 +3,4 @@ thumbnail: /img/brandi-token.png
 name: Brandi
 subtitle: Player of Remi
 ---
-A tiny sock off rage demon
+Brandi is a delightful ball of chaos.
