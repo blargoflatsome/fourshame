@@ -1,4 +1,5 @@
 ---
+thumbnail: /img/male_placeholder.png
 name: Scorbit the Horrifying
 subtitle: Defiler of shadow, domineer of darkness, fear striker of the bolden
   hearted, Corruptor of Kobolds, and Conqueror of TOR!!
