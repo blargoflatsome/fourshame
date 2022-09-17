@@ -1,9 +1,10 @@
 ---
-thumbnail: /img/no_image.png
-name: Killian & Chloe Gren
+thumbnail: /img/killian_token.png
+name: Killian Gren
 subtitle: A member of the Keepers of the Dark
 type: npc
 status: alive
+metaDescription: "Killian Gren: Keeper of the Dark and boyfriend of Hadriana"
 ---
 Killian Gren was first encountered when captured by Gerald Stumpton, he was to be executed after questioning due to being an outsider sneaking about in the forest. Upon learning that his sister had been captured by the grung, the party convinced the Elder to spare him. They also reasoned that he may be of help in their battle against Grim Gash and the orcs.
 
