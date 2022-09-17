@@ -1,5 +1,5 @@
 ---
-thumbnail: /img/no_image.png
+thumbnail: /img/blight-sisters-group.png
 name: The Blight Sisters
 subtitle: Profane dryads
 type: npc
