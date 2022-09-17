@@ -1,4 +1,5 @@
 ---
+thumbnail: /img/male_placeholder.png
 name: Sir Chaz Chazzington
 subtitle: The boldest and most handsome
 type: npc
