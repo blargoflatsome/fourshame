@@ -51,7 +51,7 @@ export default {
       return this.posts.filter(({type, status}) => status == 'dead')
     },
     NPCs() {
-      return this.posts.filter(({type}) =>  type == 'npc')
+      return this.posts.filter(({type, status}) =>  type == 'npc' && status == 'alive')
     }
   },
   head(){
