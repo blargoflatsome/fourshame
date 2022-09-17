@@ -85,13 +85,22 @@ main
         a(href="https://4-shame-not-honor.creator-spring.com" target="_blank" class="btn") Buy Stuff
         
       div(id="partners" class="flex flex-col justify-between justify-end p-3 text-center flex-1")
-        p(class="header") Partnership With RolePositiveGaming
+        p(class="header") Partnership With Role Positive Gaming
         div
-          p We have joined our community with the very talented people over at RolePositiveGaming!
-          p Kayla is now a player in their Friday game, and both Jordan and Kayla play in the Monday game.
-          p(class="font-bold") You should absolutely check them out!
+          p We have joined our community with the very talented people over at RolePositiveGaming! 
+          p
+            span(class="font-bold") The Weight of Tears
+            br 
+            | Every Monday at 4pm(pst)
+          p
+            span(class="font-bold") Strixhaven
+            br
+            | Every Friday at 4pm(pst)          
         div(class="flex-1")
-        a(href="https://www.twitch.tv/rolepositivegaming" target="_blank" class="btn") RolePositiveGaming
+        div(class="flex space-x-2")
+          a(href="https://www.twitch.tv/rolepositivegaming" target="_blank" class="btn w-full") Watch on Twitch
+          a(href="https://www.youtube.com/watch?v=G2ajz6GrlN0" target="_blank" class="btn w-full") Catch up on Youtube
+        
 </template>
 
 <script>
