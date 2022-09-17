@@ -76,14 +76,21 @@ main
     div(class="flex flex-col my-10 space-y-5 lg:flex-row lg:space-x-10 lg:space-y-0")
       div(id="merch" class="flex flex-col justify-between justify-end p-3 text-center flex-1")
         p(class="header") Merchandise
-        p To help fund our efforts, new equipment, upkeep subscriptions, etc we have also created a 4shameNotHonor store on teespring! If you don't see anything you like, feel free to request something on our Discord Server!
+        p To help fund our efforts, new equipment, upkeep subscriptions, etc we have also created a 4shameNotHonor store on teespring!
+        a(href="https://4-shame-not-honor.creator-spring.com" target="_blank" class="m-auto")
+          img(src="/img/merchandise-banner.jpg" alt="Buy Merch!" class="border")        
+        p(class="text-sm") (If you don't see anything you like, feel free to request something on our 
+          a(href="https://discord.gg/WVkMgSvRFR" target="_blank") Discord Server!
+          | )
         a(href="https://4-shame-not-honor.creator-spring.com" target="_blank" class="btn") Buy Stuff
         
       div(id="partners" class="flex flex-col justify-between justify-end p-3 text-center flex-1")
         p(class="header") Partnership With RolePositiveGaming
         div
-          p Speaking of new friends, and helping our stream grow, we have joined our community with the very talented people over on RolePositiveGaming. Kayla is now a player in their Friday game, and both Jordan and Kayla play in the Monday game.
-          p You should absolutely check them out!
+          p We have joined our community with the very talented people over at RolePositiveGaming!
+          p Kayla is now a player in their Friday game, and both Jordan and Kayla play in the Monday game.
+          p(class="font-bold") You should absolutely check them out!
+        div(class="flex-1")
         a(href="https://www.twitch.tv/rolepositivegaming" target="_blank" class="btn") RolePositiveGaming
 </template>
 
