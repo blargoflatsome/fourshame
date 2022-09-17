@@ -67,11 +67,24 @@ main
           // End mc_embed_signup
 
     div(class="p-3 my-10 border-t-2 border-b-2 rounded")
+      p(class="header") The Roudgara Campaign
+      p Our main campaign has been running since 2019 and exists in an entirely homebrewed world.
+      p(class="font-bold") Checkout the following pages to help catch up!
+      ul
+        li
+          router-link(to="/general/the-roudgara-campaign") The plot so far
+        li
+          router-link(to="/timeline/2022-06-16t15-40-38-831z-campaign") Campaign Timeline
+        li
+          router-link(to="/characters") The cast of PCs and NPCs
+
+    Players
+
+    div(class="p-3 my-10 border-t-2 border-b-2 rounded")
       p(class="header") 4ShameNotHonor LLC
       p Kayla and Jordan formed the 4ShameNotHonor LLC after our Sunday D&amp;D game gained enough attention on twitch to go affiliate during the onset of the pandemic. Thankfully, we have managed to keep it going even as we all had to return to work and resume normal schedules. Give or take a few cast changes along the way.
       p We are excited to see our stream grow, but mostly we just enjoy the opportunity it has given us to enjoy Sunday evenings with our friends and to make new ones.
     
-    Players
     
     div(class="flex flex-col my-10 space-y-5 lg:flex-row lg:space-x-10 lg:space-y-0")
       div(id="merch" class="flex flex-col justify-between justify-end p-3 text-center flex-1")
