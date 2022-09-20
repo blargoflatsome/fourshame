@@ -1,10 +1,10 @@
 ---
 thumbnail: /img/male_placeholder.png
 name: Eskar Banay
-subtitle: Disembodies rakshasa Soul, Petrified by Purity
+subtitle: Disembodied rakshasa Soul, Petrified by Purity
 type: npc
 status: alive
-metaDescription: "Eskar Banay: Disembodies rakshasa Soul, Petrified by Purity"
+metaDescription: "Eskar Banay: Disembodied rakshasa Soul, Petrified by Purity"
 ---
 E﻿skar Banay is, or perhaps was, a Rakshasa. However, when he died his soul had nowhere to go. The Hell of the outer planes cannot be accessed from this world. So he has jumped from body to body in a desperate attempt to hold off the entropic forces of the Fade and to avoid the attention of Reapers.
 
