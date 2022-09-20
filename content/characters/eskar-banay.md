@@ -1,4 +1,5 @@
 ---
+thumbnail: /img/male_placeholder.png
 name: Eskar Banay
 subtitle: Disembodies rakshasa Soul, Petrified by Purity
 type: npc
