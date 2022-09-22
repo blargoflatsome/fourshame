@@ -1,4 +1,5 @@
 ---
+thumbnail: /img/varra-darra-token.png
 name: Varra & Darra Shadowpath
 subtitle: Druids, Twins, Allies of Hadriana
 type: npc
