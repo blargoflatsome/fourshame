@@ -1,5 +1,5 @@
 ---
-thumbnail: /img/male_placeholder.png
+thumbnail: /img/kwizbet-token.png
 name: Kwizbet
 subtitle: The Hermit, Mentor to Hadriana, Ex-wizard of the Spires, Cheater of Death
 type: npc
