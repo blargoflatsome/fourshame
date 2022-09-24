@@ -12,49 +12,28 @@ module.exports = {
         sans: ['Inter']
       },
       colors: {
-        black: "#202121",
-        white: "#fff",
+        black: "#1a1110",
+        white: "#fffafa",
         gray: {
-          '50': 'var(--color-gray-50)', // #F9FAFB
-          '100': 'var(--color-gray-100)', // #F3F4F6
-          '200': 'var(--color-gray-200)', // #E5E7EB
-          '300': 'var(--color-gray-300)', // #D1D5DB
-          '400': 'var(--color-gray-400)', // #9CA3AF
-          DEFAULT: 'var(--color-gray)', // #6B7280
-          '600': 'var(--color-gray-600)', // #4B5563
-          '700': 'var(--color-gray-700)', // #374151
-          '800': 'var(--color-gray-800)', // #1F2937
-          '900': 'var(--color-gray-900)', // #111827
           darkest: "#2a2a2a",
           darker: "#4d4d4d",
           dark: "#6c6c6c",
-          base: "#767676",
+          base: "#c0c0c0",
           light: "#d5d5d5",
           lighter: "#f3f3f3",
           lightest: "#fafafa"
-        },
-        primary: {
-          '100': 'var(--color-primary-100)', // #ECEFF5
-          '200': 'var(--color-primary-200)', // #C3CBDC
-          '300': 'var(--color-primary-300)', // #9BA8C2
-          '400': 'var(--color-primary-400)', // #7686A6
-          DEFAULT: 'var(--color-primary)', // #526488
-          '600': 'var(--color-primary-600)', // #3E4F70
-          '700': 'var(--color-primary-700)', // #2C3A57
-          '800': 'var(--color-primary-800)', // #1C263B
-          '900': 'var(--color-primary-900)' // #0D131E
         },
         action: {
           light: "#7395ae",
           dark: "#557a95"
         },
         accent: {
-          darkest: "#370617",
-          dark: "#6A040F",
-          base: "#6A040F",
-          light: "#D00000",
-          lighter: "#9D0208",
-          fade: "#d48e8f40"
+          darkest: "#370617", // "#370617"
+          dark: "#6A040F", // "#6A040F"
+          base: "#660000", // "#6A040F"
+          light: "#ff0800", // "#D00000"
+          lighter: "#9D0208", //  "#9D0208"
+          fade: "#d48e8f40" // "#d48e8f40"
         }
       },
       screens: {

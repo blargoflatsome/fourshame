@@ -1,9 +1,10 @@
 <template lang="pug">
 main
   div(
-    class="w-full flex justify-center items-center border-t-2 border-b-2 bg-accent-dark"
+    class="w-full flex flx-wrap justify-center items-center py-4 bg-accent-base"
   )
-    img(src="/img/banner1.jpg" width="1280" height="300")
+    img(src="/img/hp-banner-1.png" width="617" height="283")
+    img(src="/img/hp-banner-2.png" width="597" height="281")
   section
     div(class="flex flex-col my-10 space-y-5 lg:flex-row lg:space-x-10 lg:space-y-0")
 
