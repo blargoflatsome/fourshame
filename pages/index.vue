@@ -1,7 +1,7 @@
 <template lang="pug">
 main
   div(
-    class="w-full flex flex-col md:flex-row space-y-5 px-4 justify-center items-center py-4 bg-accent-base"
+    class="w-full flex flex-col md:flex-row space-y-5 px-4 lg:px-0 justify-center items-center py-4 bg-accent-base"
   )
     div
       img(src="/img/hp-banner-1.png" width="617" height="283" class="w-full h-auto")
