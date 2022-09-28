@@ -1,7 +1,7 @@
 ---
 createdAt: 2022-08-06T20:34:26.262Z
 title: Tracking Time
-type: general
+type: setting
 description: How to track time in Urroth.
 ---
 ## The Sun
