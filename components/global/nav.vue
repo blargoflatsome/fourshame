@@ -9,7 +9,7 @@ nav
       div(class="fixed z-40 top-0 bottom-0 right-0 left-0 bg-black opacity-80" @click="show=false")
       div(class="menu p-5 z-50 w-1/2 md:w-1/3 lg:w-1/5 h-screen shadowbg-white border-r overflow-y-auto")
         div(class="flex items-center justify-between border-b") 
-          span Welcome
+          span 
           div(@click="show=false" class="cursor-pointer") X
         ul(class="list-none ml-0")
           li(v-if="blogs.length > 0")
@@ -24,8 +24,8 @@ nav
                     :class="{'active text-action-light': articleName == page.slug}"
                   ) {{ page.title }}       
           
-          li(v-if="general.length > 0")
-            Collapse(:defaultOpen="$route.matched[0] && 'general' == $route.matched[0].name")
+          li(v-if="setting.length > 0")
+            Collapse(:defaultOpen="$route.matched[0] && 'setting' == $route.matched[0].name")
               template(#trigger)
                 span(class="inline-block text-action-light font-bold") The Setting
               ul(class="mt-0 ml-2 text-sm list-none")
@@ -46,17 +46,6 @@ nav
                           class="whitespace-nowrap"
                           :class="{'active text-action-light': articleName == page.slug}"
                         ) {{ page.title }}
-                li(v-if="cosmology.length > 0")
-                  Collapse(:defaultOpen="$route.matched[0] && 'cosmology' == $route.matched[0].name")
-                    template(#trigger)
-                      span(class="inline-block text-action-light font-bold") Cosmology
-                    ul(class="mt-0 ml-2 text-sm list-none")
-                      li(v-for="page in cosmology" :key="page.slug")
-                        router-link(
-                          :to="`/cosmology/${page.slug}`"
-                          class="whitespace-nowrap"
-                          :class="{'active text-action-light': articleName == page.slug}"
-                        ) {{ page.title }}
                 li
                   router-link(
                     to="/timeline/2022-06-16t15-40-38-831z-campaign" 
@@ -64,7 +53,7 @@ nav
                   ) Timeline 
           
           li
-            Collapse(:defaultOpen="$route.matched[0] && 'general' == $route.matched[0].name")
+            Collapse(:defaultOpen="$route.matched[0] && ('roudgara-campaign' == $route.matched[0].name ||  'characters' == $route.matched[0].name)")
               template(#trigger)
                 span(class="inline-block text-action-light font-bold") The Roudgara Campaign
               ul(class="mt-0 ml-2 text-sm list-none")                
@@ -125,11 +114,8 @@ export default {
   async fetch() {   
     // Convert this to a Promise.all     
     this.houseRules = await this.$content("articles").where({type: 'houserule'}).only(['slug','title']).sortBy('title').fetch()
-    this.cosmology = await this.$content("articles").where({type: 'cosmology'}).only(['slug','title']).sortBy('title').fetch()
     this.locations = await this.$content("articles").where({type: 'location'}).only(['slug','title']).sortBy('title').fetch()
     this.blogs = await this.$content("articles").where({type: 'blog'}).only(['slug','title']).sortBy('title').fetch()
-    this.general = await this.$content("articles").where({type: 'general'}).only(['slug','title']).sortBy('title').fetch()
-
     this.setting = await this.$content("articles").where({type: 'setting'}).only(['slug','title']).sortBy('title').fetch()
     this.roudgaraCampaign = await this.$content("articles").where({type: 'roudgara-campaign'}).only(['slug','title']).sortBy('title').fetch()
   },
