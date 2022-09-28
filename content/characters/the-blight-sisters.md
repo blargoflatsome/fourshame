@@ -37,17 +37,28 @@ As for Tut, he had one last profane act to do. To himself, he sacrificed the fol
 
 Tut wept for his daughters. Wept for his followers. More than any, he wept for himself. To his horror, Tut could not die by his own hand. Nor could he leave the cavern temple where the bodies of his followers lay in heaps. Tut had become Regret.
 
+![Corruption](/img/corruption-token.png "Corruption")
+![Purity](/img/purity-token.png "Purity")
+
 ## Corruption / Purity
 
 Corruption plagued the party early on, even turning one of their own against them as she corrupted and controlled the flesh of Issaterra. She did not wage war against her sisters, but often played the two against each other. 
 
 The party enacted a ritual that purified the dryad and she is once more Purity. Her territory is now a safe haven for the party, and for fey. Though she has taken no direct action against her sisters, she supports the party's efforts to purify them as well.
 
+
+
+![Misery](/img/misery-token.png "Misery")
+![Joy](/img/joy-token.png "Joy")
+
 ## Misery / Joy
 
 It has been revealed to the party that Misery, and her sisters, manipulated Myrcella Roudgara and upon the elve's death she bound her soul to Misery's tree. A divine soul and the arcane spirit of a fey joined as one, they became the Spirit Mother. Driven by Myrcella's vengeance and feeding on pain.
 
 According to Ludwig an act of pure love must be performed before the tree of Misery in order to purify her.
+
+![Betrayal](/img/betrayal-token.png "Betrayal")
+![Kindness](/img/kindness-token.png "Kindness")
 
 ## Betrayal / Kindness
 
