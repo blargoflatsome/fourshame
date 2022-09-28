@@ -18,10 +18,8 @@ module.exports = {
           darkest: "#2a2a2a",
           darker: "#4d4d4d",
           dark: "#6c6c6c",
-          base: "#c0c0c0",
-          light: "#d5d5d5",
-          lighter: "#f3f3f3",
-          lightest: "#fafafa"
+          base: "#a9a6a6",
+          light: "#d7d6d6",
         },
         action: {
           light: "#7395ae",

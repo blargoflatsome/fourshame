@@ -133,9 +133,9 @@
 
 /* With no author its just a Note */
 blockquote {
-  @apply relative font-bold text-sm text-center p-4 border-l-4 border-gray-300 rounded-lg;
-  color: theme("colors.gray.base");
-  max-width: max-content;
+  @apply relative font-bold text-sm text-center p-2 border-b-2 border-accent-dark rounded-lg;
+  color: theme("colors.gray.dark");
+  max-width: 90%;
   margin: 2.5rem !important;
   margin-right: auto !important;
   margin-left: auto !important;
@@ -144,19 +144,6 @@ blockquote {
 blockquote p {
   margin: 0;
 }
-
-blockquote:after {
-  content: "\201D";
-  color: theme("colors.gray.300");
-  font-family: "Sanchez", serif;
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 4rem;
-  font-style: italic;
-  line-height: 3rem;
-}
-
 
 /* Markdown Classes */
 .image-right {
