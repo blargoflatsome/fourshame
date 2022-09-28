@@ -1,5 +1,5 @@
 ---
-thumbnail: /img/bass_note_token.png
+thumbnail: /img/bass-note-token.png
 name: Bass Note
 subtitle: Bard, and Emissary of Purity
 type: pc
