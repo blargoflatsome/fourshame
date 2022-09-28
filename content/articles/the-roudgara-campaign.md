@@ -1,7 +1,7 @@
 ---
 createdAt: 2022-08-06T21:03:57.817Z
-title: The Roudgara Campaign
-type: general
+title: The Story so Far
+type: roudgara-campaign
 description: A summary of the chronicle
 metaDescription: Catch up on the story of The Roudgara Campaign so far
 ---
