@@ -1,7 +1,7 @@
 ---
 createdAt: 2022-07-09T20:04:55.631Z
 title: Astral Realm
-type: setting
+type: location
 description: The land of thought and dreams
 ---
 The Astral Realm is a realm of thought. The collective consciousness of all thinking beings made manifest. It functions as a sort of membrane wrapped around everything like a skin to the Material Realm. It's how the Material Realm connects with the outer realms, or at least it was before the Outsider's destroyed those connections.
