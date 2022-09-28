@@ -98,6 +98,24 @@ export default {
           chunkName: 'pages/generals',
         },
         {
+          name: 'setting',
+          path: '/setting/:article',
+          props: {
+            pageType: 'setting',
+          },
+          component: resolve(__dirname, 'pagesCustom/articles.vue'),
+          chunkName: 'pages/setting',
+        },
+        {
+          name: 'roudgara-campaign',
+          path: '/roudgara-campaign/:article',
+          props: {
+            pageType: 'roudgara-campaign',
+          },
+          component: resolve(__dirname, 'pagesCustom/articles.vue'),
+          chunkName: 'pages/roudgara-campaign',
+        },
+        {
           name: 'blog',
           path: '/blog/:article',
           props: {

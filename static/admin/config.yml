@@ -114,7 +114,9 @@ collections:
             [
               { label: 'Blog', value: 'blog' },
               { label: 'Cosmology', value: 'cosmology' },
-              { label: 'General', value: 'general' },
+              { label: 'General', value: 'general' }, 
+              { label: 'Setting', value: 'setting' },
+              { label: 'Roudgara Campaign', value: 'roudgara-campaign' },
               { label: 'House Rule', value: 'houserule' },
               { label: 'Location', value: 'location' },
               
