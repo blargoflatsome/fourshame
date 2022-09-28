@@ -1,7 +1,7 @@
 ---
 createdAt: 2022-08-07T00:25:07.400Z
 title: The Feywild
-type: setting
+type: location
 description: "A Wasteland of Wonder and Death "
 ---
 While the gates to the fey-Wild are closed we have unearthed many ancient texts on the subject as well as conducted a few rare but precious interviews with the fey who reside on our side of the gates.
