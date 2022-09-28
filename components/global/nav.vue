@@ -25,7 +25,7 @@ nav
                   ) {{ page.title }}       
           
           li(v-if="setting.length > 0")
-            Collapse(:defaultOpen="$route.matched[0] && 'setting' == $route.matched[0].name")
+            Collapse(:defaultOpen="$route.matched[0] && ('setting' == $route.matched[0].name || 'location' == $route.matched[0].name || 'timeline' == $route.matched[0].name)")
               template(#trigger)
                 span(class="inline-block text-action-light font-bold") The Setting
               ul(class="mt-0 ml-2 text-sm list-none")
