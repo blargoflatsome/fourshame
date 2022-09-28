@@ -1,7 +1,7 @@
 ---
 createdAt: 2022-08-19T18:54:05.054Z
-title: "The Setting: Urroth"
-type: general
+title: The World of Urroth
+type: setting
 description: An Introduction To Urroth
 ---
 ## Some History On How We Got Here
