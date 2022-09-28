@@ -1,7 +1,7 @@
 ---
 createdAt: 2022-08-07T00:30:20.405Z
 title: The Afterlife
-type: cosmology
+type: setting
 description: What happens when you die in a world without Gods?
 ---
 ## The Soul
