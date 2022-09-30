@@ -1,5 +1,5 @@
 ---
-thumbnail: /img/duncan-token.png
+thumbnail: /img/duncan-crane-token.png
 name: Duncan Crane
 subtitle: Necromancer, Cheater of Death, Survivor of the Time of Atrocities
 type: npc
