@@ -1,5 +1,5 @@
 ---
-thumbnail: /img/gerald-token.png
+thumbnail: /img/gerald-stumpton-token.png
 name: Gerald Stumpton
 subtitle: Barbarian, Lost to Betrayal, Chief of Fort Muck
 type: npc
