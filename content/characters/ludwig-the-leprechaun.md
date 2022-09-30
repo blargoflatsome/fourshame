@@ -1,5 +1,5 @@
 ---
-thumbnail: /img/chazz-token.png
+thumbnail: /img/ludwig-token.png
 name: Ludwig "The Leprechaun"
 subtitle: Guardian of Purity, Father of two
 type: npc
