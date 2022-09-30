@@ -1,5 +1,5 @@
 ---
-thumbnail: /img/male_placeholder.png
+thumbnail: /img/eskar-banay-token.png
 name: Eskar Banay
 subtitle: Disembodied rakshasa Soul, Petrified by Purity
 type: npc
