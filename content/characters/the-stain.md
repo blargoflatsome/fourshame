@@ -1,5 +1,5 @@
 ---
-thumbnail: /img/thestain-token.png
+thumbnail: /img/the-stain-token.png
 name: The Stain
 subtitle: The Whispering Dark
 type: npc
