@@ -1,5 +1,5 @@
 ---
-thumbnail: /img/haddy-1.png
+thumbnail: /img/hadriana-token.png
 name: Hadriana Ravensight-Pren of Wolf Grove
 subtitle: Black Dragon Sorcerer, Master Chef, Elder In Training
 type: pc
