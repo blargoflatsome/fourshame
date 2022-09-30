@@ -1,5 +1,5 @@
 ---
-thumbnail: /img/thaishin-token-1-.png
+thumbnail: /img/thaishin-token.png
 name: Thaishin
 subtitle: Chosen of the Spirit Mother, Founder of Amnesty Grove, Druid of Wolf Grove
 type: npc
