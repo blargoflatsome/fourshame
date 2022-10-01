@@ -22,7 +22,7 @@ The party has made many waves within the forest, but at the end of Chapter 3, th
 
 [Emmerson](/characters/emmerson/), a loyal and devoted warrior of the Spirit Mother’s own grove, has just had his reality shattered. Witnessing firsthand the brutality of her vengeance as she turned on her own people, including him. Yet, with his shovel of Justice, he struck blood from the Spirit Mother just before everyone made their escape. He now stands at the crossroads of justice and vengeance.
 
-## What is the Spirit Mother?
+## Who is the Spirit Mother?
 
 The people of Roudgara Forest have long served an entity known as The Spirit Mother. She brought light to the unusually dark forest in the form of bioluminescent plants locally called ‘Violescents’, and they learned to use these plants in many other ways. From herbal healing remedies to war paint. 
 All that the mother asked for in return, was vengeance. 
