@@ -24,7 +24,7 @@ div
 
       div
         strong Support Us
-        ul(class="text-xs")
+        ul(class="text-xs list-none mt-0")
           li
             a(href="https://www.paypal.me/4Shame") Donate
 </template>

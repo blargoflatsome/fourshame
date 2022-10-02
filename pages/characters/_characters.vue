@@ -26,6 +26,11 @@ export default {
       title: `${this.post.name} | 4 Shame Not Honor`,
       meta: [
         {
+          hid: 'og:title',
+          name: 'og:title',
+          content: `${this.post.name}`
+        },
+        {
           hid: 'og:description',
           name: 'og:description',
           content: `${this.post.metaDescription || this.post.subtitle}`
