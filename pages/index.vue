@@ -75,7 +75,7 @@ main
       p(class="font-bold") Checkout the following pages to help catch up!
       ul
         li
-          router-link(to="/general/the-roudgara-campaign") The plot so far
+          router-link(to="/roudgara-campaign/faq") The FAQ
         li
           router-link(to="/timeline/2022-06-16t15-40-38-831z-campaign") Campaign Timeline
         li
