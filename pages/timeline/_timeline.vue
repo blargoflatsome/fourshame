@@ -107,18 +107,18 @@ export default {
       // Make another one for yearName
       month = month - 1;
       const months = [
-        "crimson",
-        "blushing",
-        "light blue",
-        "white",
-        "green",
-        "silver",
-        "red",
-        "gold",
-        "dark blue",
-        "orange",
-        "multi-colored",
-        "purple"
+        "Knowing",
+        "Blushing",
+        "Courageous",
+        "Aware",
+        "Lucky",
+        "Protector",
+        "Passionate",
+        "Fortunate",
+        "Nostalgic",
+        "Creative",
+        "Free",
+        "Dead"
       ]; // list 12 month names
 
       return months[month];
