@@ -124,9 +124,6 @@ export default {
       return this.$route.params.article || null
     },
   },
-  mounted(){
-    console.log(this.$route)
-  },
   watch:{
     $route (to, from){
         this.show = false;
