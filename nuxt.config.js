@@ -27,12 +27,12 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: SITE_INFO.sitedescription || process.env.npm_package_description || ''
+        content: SITE_INFO.sitedescription || ''
       },
       {
         hid: 'og:image',
         name: 'og:image',
-        content: '/_nuxt/assets/images/4-shame-not-honor-logo.png'
+        content: 'https://www.fourshame.com/img/hp-banner-1.png'
       },
     ],
     script: [
