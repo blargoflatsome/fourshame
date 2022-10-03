@@ -37,8 +37,8 @@ As for Tut, he had one last profane act to do. To himself, he sacrificed the fol
 
 Tut wept for his daughters. Wept for his followers. More than any, he wept for himself. To his horror, Tut could not die by his own hand. Nor could he leave the cavern temple where the bodies of his followers lay in heaps. Tut had become Regret.
 
-![Corruption](/img/corruption-token.png "Corruption")
-![Purity](/img/purity-token.png "Purity")
+<img src="/img/corruption-token.png" a﻿lt="Corruption" class="inline">
+<img src="/img/purity-token.png" a﻿lt="Purity" class="inline">
 
 ## Corruption / Purity
 
