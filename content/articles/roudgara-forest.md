@@ -16,6 +16,32 @@ Mother's Grove was built around the Myrcella Tree, said to house the soul of the
 
 Each grove lives mostly autonomous lives and pays no tribute to the central village but each grove is united under a singular faith and cause. It is rare, Under her leadership via the grove elders, that the groves come into direct conflict with each other. It is only in the most severe of circumstances that disputes are escalated to arbitration by the elders of Mother's Grove. Preferring instead to resolve disputes with feats of strength and sport; such as Skull Ball.
 
+### Rules of the grove
+
+* You barter for all that you want. 
+  * Barter can be an exchange of things or favors. 
+  * Favors are tracked as Trivial, Minor, Major, Life
+  * Favors are weighed based on the debtor’s station and ability. What is trivial for an Elder may be impossible for a commoner. Therefore, it's worth more.
+* Vengeance must be respected.
+* Renown must be respected.
+* The word of the Elder is law
+* Dark Weed is strictly forbidden without authorization
+* Green Violesence is sacred and may be worn only by the Pren.
+* Necromancy is strictly forbidden. What is dead must feed the soil.
+* Outsiders must be captured and presented to an Elder.
+
+### Punishments in the grove
+* Roots of the Myrcella Tree
+  * The roots of the Myrcella Tree are covered in thorns and they writhe and grind along the ground. Those sentenced to death are tossed into this nest of roots for what is a slow and painful death. It is said that those who die by Misery, die twice. Once in body and again in spirit.
+* Petrification
+  * Those who have truly angered the mother are not given death, but rather eternal life. It is claimed that petrification preserves the body and binds the soul.
+* Debt
+  * Smaller transgressions can be punished simply by placing the aggressor into the debt of the aggrieved.
+* Banishment
+  * In the rare instance of mercy with the forest a criminal can merely be banished. This is often regarded as the sign of a weak leader unless it is the expressed will of the Spirit Mother.
+* Loss of Renown
+  * Another option for lesser transgressions and social missteps is the loss of renown.
+
 ### Skull Ball
 
 A popular sport and means of dispute resolution. Skull Ball is a way to earn renown during times of peace and to keep the young warriors from stirring up trouble in the forest or taking dangerous journeys into The Black in search of glory before they are ready. It also prevents bloodshed when two Groves have cause for dispute.
@@ -36,19 +62,22 @@ The Spirit Mother provides the light of the violescent plants to guide and prote
 
 ### The Spirit Gardens
 
-The Groves of Roudgara Forest protect secret sites where the Druids among their number plant a seed that has been bonded to their own soul. As they grow and age so does the seed into a tree that mirrors their strength. Upon death, these druids do not pass on to the ethereal but instead possess their tree where they can be communed with and share their wisdom with their grove for so long as the tree lives.
+The Groves of Roudgara Forest protect secret sites where the druids among their number plant a seed that has been bonded to their own soul. As they grow and age so does the seed into a tree that mirrors their strength. Upon death, these druids do not pass on to the ethereal but instead possess their tree where they can be communed with and share their wisdom with their grove for so long as the tree lives.
+
+### The Mother's Garden
+A﻿ sculpture garden consisting of all those the Spirit Mother has condemned to petrification. It serves as a beautiful warning to all.
 
 ## Factions of the Forest
 
 ### The Blight Sisters
 
-The Blight Sister are profaned dryads that, if you believe the stories of Ludwig The Leprechaun, predate even the Spirit Mother. They hail from an ancient time when the forest held a different name and druids worshipped the Acorn God, also known as the Forest Father. 
+The Blight Sister are profaned dryads that predate even the Spirit Mother. They hail from an ancient time when the forest held a different name and druids worshipped the Acorn God, also known as the Forest Father. 
 
 They have demonstrated a deep connection and great power over their territories within the forest.
 
 ### The Spirit Mother
 
-Goddess and guardian of the forest. The Spirit Mother is said to be the awakened spirit of Myrcella Roudgara, an Irishne elf that lead a rebellion against King Torquill Von Demillo of Ravished. Her life and her rebellion were ended when she was bound and burned upon a sacred tree. The druids of the forest serve her and her restless quest for vengeance.
+Goddess and guardian of the forest. The Spirit Mother is said to be the awakened spirit of Myrcella Roudgara, an Irishne elf that lead a rebellion against King Torquill Von Demillo of Ravished. Her life and her rebellion ended when she was bound and burned upon a sacred tree. The druids of the forest serve her and her restless quest for vengeance.
 
 ### Gnomes
 
@@ -68,7 +97,7 @@ Abandoned, reviled, and broken the grung are rarely seen these days.
 
 Fearsome druidic tribes of the Black. Rarely seen until recently. Some say there are merely men like any other but the elders caution against such hubris. The Shadowmen are enemies of the Spirit Mother and abhor her light. Venture softly off the illuminated paths of the forest.
 
-After an attack on the Spirit Garden of Wolf Grove, it's been revealed that the shadowmen can claim the loyalty of others by infecting them with Darkweed. Curing this affliction requires a rather expensive spell, Greater Restoration.
+After an attack on the Spirit Garden of Wolf Grove, it's been revealed that the shadowmen can claim the loyalty of others by infecting them with Darkweed. Curing this affliction requires Greater Restoration.
 
 ### The Beast Kings
 
@@ -76,11 +105,11 @@ Even the beasts answer to the Spirit Mother. The Beast Kings are awakened animal
 
 ### The Dwarves
 
-The veiled mountains are so-called due to the thick mists, where freezing ice meets desert heat, that blankets them. The Dwarves of these mountains emerge from their earthen kingdoms only on occasion to trade with Umbrage Grove and from there the rest of the forest.
+The veiled mountains are so-called due to the thick mists that blanket them. The Dwarves of these mountains rarely emerge from their earthen kingdoms.
 
 ### The Tarsier
 
-A small race of bardic creatures. Corruption had turned them all into Goblins, but upon her purification so to was the Tarsier returned to their natural state. At least physically. The psychological impacts may take some time.
+A small race of bardic creatures. Corruption had turned them all into Goblins, but upon her purification so too was the Tarsier returned to their natural state. At least physically. The psychological impacts may take some time.
 
 ## Unique Flora & Fauna
 
@@ -99,11 +128,13 @@ Violescent plants grow low to the ground at the base of trees and light the dens
   * Considered sacred.
 * Blue Violescent
 
-  * Poison
+  * Poisonous
 * Purple Violescent
 
   * Potent aphrodisiac
 * Black Violescent
+
+  * T﻿he Darkweed of Betrayal. This plant will attack any who get close enough and infect them with paranoia. If the infection spreads to the heart the target is charmed by The Lady of Thorns until the seed can be removed.
 
 ### Fauna
 
@@ -114,10 +145,6 @@ Head-sized spiders that spin razor-sharp, nearly invisible, webs in straight lin
 #### Spider Bear
 
 These creatures did not exist before the Spirit Mother took over the forest. They are more bear than spider but they hunt like a spider. Laying down thick webs around their lairs while they hibernate. Devouring whatever is trapped upon waking. Even the Druids shy away from these beasts.
-
-#### Mothers Blight
-
-A forest must be able to defend itself. To this end, a faction of druids known simply as the blight tends to their Mother's garden. They raise and watch over the Needle, Twig, and Vine Blights which serve The Spirit Mother. It is believed these blights hold back ancient enemies of the Forest. Creatures that once aided the Evil and stood against the Spirit Mother.
 
 #### Crud Fish
 
