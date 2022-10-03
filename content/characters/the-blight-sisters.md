@@ -47,19 +47,21 @@ Corruption plagued the party early on, even turning one of their own against the
 
 The party enacted a ritual that purified the dryad and she is once more Purity. Her territory is now a safe haven for the party, and for fey. Though she has taken no direct action against her sisters, she supports the party's efforts to purify them as well.
 
-![Misery](/img/misery-token.png "Misery")
-![Joy](/img/joy-token.png "Joy")
-
 ## Misery / Joy
+
+| | |
+| ----------------------------------------------------- | ----------------------------------------- |
+| ![Misery](/img/misery-token.png "Misery") | ![Joy](/img/joy-token.png "Joy") |
 
 It has been revealed to the party that Misery, and her sisters, manipulated Myrcella Roudgara and upon the elve's death she bound her soul to Misery's tree. A divine soul and the arcane spirit of a fey joined as one, they became the Spirit Mother. Driven by Myrcella's vengeance and feeding on pain.
 
 According to Ludwig an act of pure love must be performed before the tree of Misery in order to purify her.
 
-![Betrayal](/img/betrayal-token.png "Betrayal")
-![Kindness](/img/kindness-token.png "Kindness")
-
 ## Betrayal / Kindness
+
+| | |
+| ----------------------------------------------------- | ----------------------------------------- |
+| ![Betrayal](/img/betrayal-token.png "Betrayal") | ![Kindness](/img/kindness-token.png "Kindness") |
 
 Betrayal wages a war in the shadows against The Spirit Mother under the name "Lady of Thorns". For years her 'Shadowmen' were nothing more than the boogie man. A horror story to keep children from wandering too far from the light of the Mother's violescent plants. 
 
