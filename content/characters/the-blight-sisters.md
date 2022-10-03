@@ -37,16 +37,15 @@ As for Tut, he had one last profane act to do. To himself, he sacrificed the fol
 
 Tut wept for his daughters. Wept for his followers. More than any, he wept for himself. To his horror, Tut could not die by his own hand. Nor could he leave the cavern temple where the bodies of his followers lay in heaps. Tut had become Regret.
 
-![Corruption](/img/corruption-token.png "Corruption")
-![Purity](/img/purity-token.png "Purity")
-
 ## Corruption / Purity
+
+| | |
+| ----------------------------------------------------- | ----------------------------------------- |
+| ![Corruption](/img/corruption-token.png "Corruption") | ![Purity](/img/purity-token.png "Purity") |
 
 Corruption plagued the party early on, even turning one of their own against them as she corrupted and controlled the flesh of Issaterra. She did not wage war against her sisters, but often played the two against each other. 
 
 The party enacted a ritual that purified the dryad and she is once more Purity. Her territory is now a safe haven for the party, and for fey. Though she has taken no direct action against her sisters, she supports the party's efforts to purify them as well.
-
-
 
 ![Misery](/img/misery-token.png "Misery")
 ![Joy](/img/joy-token.png "Joy")
