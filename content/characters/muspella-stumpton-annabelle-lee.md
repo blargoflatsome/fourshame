@@ -1,12 +1,11 @@
 ---
 thumbnail: /img/muspella-token.png
 name: Muspella
-subtitle: Profaned, Slave Killer, Adopted daughter of Gerald Stumpton, Barbarian
-  of Wolf Grove
+subtitle: Profaned Bardbarian, Slave Killer, Adopted daughter of Gerald
+  Stumpton, Barbarian of Wolf Grove
 type: pc
 status: dead
-metaDescription: Muspella was part of the original party, but fate had other
-  plans and she perished under mysterious circumstances.
+metaDescription: Muspella Stumpton the tiefling bardbarian died under mysterious circumstances.
 ---
 Found as a baby by Gerald Stumpton, Muspella was raised in the ways of the Barbarian. 
 
