@@ -2,7 +2,7 @@
 section(v-if='post')    
   div(class="md:flex")
     div(class="flex-1 max-w-min min-w-max")
-      img(:src='post.thumbnail' width="280" height="280")
+      img(:src='post.thumbnail' width="280" height="280" :alt="post.name")
     div(class="my-4 md:my-0 md:ml-4 leading-snug")
       h1(class="leading-none m-0") {{ post.name }}
       h2(class="leading-none mt-1") {{ post.subtitle }}
