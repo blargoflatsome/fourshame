@@ -4,9 +4,7 @@ title: Knossoss
 type: location
 description: Home of the Minotaur in the Forbidden Valley
 ---
-> "Truth and Time cannot be witnessed by a single eye or felt by a single finger; nor shall they be judged by a single heart" - Bulgar SilentStrider
-
-
+> "Truth cannot be witnessed by a single eye or felt by a single finger; nor shall it be judged by a single heart" - Bulgar SilentStrider
 
 ## Code of Honor
 
@@ -17,8 +15,6 @@ description: Home of the Minotaur in the Forbidden Valley
 * Honor is strength of mind
 * Honor is strength of will
 * Honor is strength
-
-
 
 ## L﻿abarytnth
 
@@ -38,7 +34,7 @@ the anniversary of when the Centaur taught them to end their blood rage
 * House SilentStrider accepts new members during these celebrations
 * Outsiders are welcome to visit and celebrate during this time, even rival factions are encouraged to attend
 
-### T﻿he week of Rage 
+### T﻿he week of Rage
 
 Once a year the Minotaur compete in blood sports to release their darker more carnal nature. This includes
 
@@ -46,8 +42,6 @@ Once a year the Minotaur compete in blood sports to release their darker more ca
 * Games of strength
 * Proving of tolerance where a Minotaur is lashed until he roars, the challenge to endure the longest
 * The house of Bloodfist will only accept new members during these trials
-
-
 
 ## The Great Houses
 
