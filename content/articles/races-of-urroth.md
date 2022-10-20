@@ -66,9 +66,19 @@ The act of feeding on Wonder may give the fey Advantage on Insight checks agains
 
 When an ally within 10ft of the fey casts a spell with a Spell Save DC, the fey may spend 1 point of Wonder to boost the targets Spell Save DC by an amount equal to the fey's Proficiency Bonus.
 
-## G﻿nome
-
 ## Halfling
+
+I﻿n the year \_\_\_ all the tribes of halflings vanished. They returned in the year \_\_\__ but they were not the same. The halflings are now a race fundamentally divided among three beliefs.
+
+**G﻿aia Halfling**\
+All hope is not lost. Ease the pain of the natural world and fight back against the Void. This is the largest faction of Halflings and the most common as they remain nomadic and honor the old ways. They do not resist the Boer but work with them directly. Long term goal is to work towards a ritual they believe will give life the boost it needs to restore the balance which they believe would "close the void" and bring back the stars. They practice lucid dreams to inhabit their astral bodies and commune with the Angelics of the Astral Plane to gain their wisdom and aid in the fight against the Void's growing influence.
+
+**V﻿oidlings**\
+These halflings have sworn an oath to the void and serve its many whims to a very singular purpose. Oblivion to all things. Voidlings are very secretive and goal-focused. Voidlings actively work against the Boer, and enact rituals upon their death to ensure their souls feed the void.
+
+**D﻿eathlings**
+
+T﻿he Deathling's range from savage nomads, to quiet loners awaiting the inevitable. The Deathling's have chosen not to pick a side, or at least not serve a side. What will be, will be. Some find this freedom as an excuse to enact great acts of evil upon the world, knowing in the end it won't matter. Others simply try to make the best of what time they have. All Deathlings have resigned themselves to their fate and the fate of all things.
 
 ## O﻿rc
 
