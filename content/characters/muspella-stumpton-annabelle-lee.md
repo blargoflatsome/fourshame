@@ -5,7 +5,8 @@ subtitle: Born Annabelle Lee, Tiefling Bardbarian, Slave Killer, Adopted
   daughter of Gerald Stumpton, Barbarian of Wolf Grove
 type: pc
 status: dead
-metaDescription: Muspella Stumpton the tiefling bardbarian died under mysterious circumstances.
+metaDescription: Muspella Stumpton, the tiefling bardbarian, died screaming in
+  the blood pits of Roudgara Forest.
 ---
 Found as a baby by Gerald Stumpton, Muspella was raised in the ways of the Barbarian. 
 
@@ -19,4 +20,6 @@ Muspella suffered many tragedies during her time in the party. While some were o
 
 However, there was no foe more dangerous to Muspella than her own impulses. Before she could learn that Remi discovered a cure for the dark weed that afflicted Gerald, she wandered away from camp in the dead of night... and was never seen again.
 
-Hadriana and Remi would later learn of her passing by the wailing of a banshee. It is largely assumed she met her end in battle within The Black, perhaps lured away by Gerald Stumpton... but no sign of violence was found, nor has her body been recovered.
+Hadriana and Remi would later learn of her passing by the wailing of a banshee but they wouldn't learn the truth of her demise until much later. After the fall of Wolf Grove, while establishing Purity Grove the "Daughter" of the Den Mother arrived seeking asylum. The Mother used the Den Mother as a scape goat among her people to explain what happened in Wolf Grove and in so doing was forced to put the creature down.\
+\
+I﻿t was from the Daughter that they learned it was by her seducing Muspella away from her post and feeding her to the blood pits that the children of the Den Mother became unstable. Her profane rage infected them and they became difficult to control, turning on the Spirit Mother's people.
