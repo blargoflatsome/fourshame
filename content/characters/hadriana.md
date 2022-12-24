@@ -1,6 +1,6 @@
 ---
 thumbnail: /img/hadriana-token.png
-name: Hadriana Ravensight-Pren of Wolf Grove
+name: Hadriana Ravensight-Pren
 subtitle: Black Dragon Sorcerer, Master Chef, Elder In Training
 type: pc
 status: alive
