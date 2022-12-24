@@ -1,11 +1,11 @@
 ---
 thumbnail: /img/thaishin-token.png
-name: Thaishin
+name: Thaishin Fütnee
 subtitle: Chosen of the Spirit Mother, Founder of Amnesty Grove, Druid of Wolf
   Grove, Creation of the Den Mother
 type: npc
 status: dead
-metaDescription: Thaishin, a profane abomination, was executed by Ravished for rebellion.
+metaDescription: Thaishin Fütnee, a profane abomination, was executed by Ravished for rebellion.
 ---
 Discovered by Precilla Oakborn within the forest on Mother's Day, Thaishin was a miracle. He displayed the apparent characteristics of an Irishne elf, the long-extinct people of Myrcella Roudgara 
 
