@@ -1,6 +1,6 @@
 ---
 thumbnail: /img/issatera-token.png
-name: Issatera
+name: Issatera Willowloch
 subtitle: First Gnome Druid, Last of the Forest Gnomes, Chosen of Corruption
 type: pc
 status: dead
