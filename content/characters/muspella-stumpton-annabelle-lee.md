@@ -1,6 +1,6 @@
 ---
 thumbnail: /img/muspella-token.png
-name: Muspella
+name: Muspella Stumpton
 subtitle: Born Annabelle Lee, Tiefling Bardbarian, Slave Killer, Adopted
   daughter of Gerald Stumpton, Barbarian of Wolf Grove
 type: pc
