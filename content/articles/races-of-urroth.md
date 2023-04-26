@@ -82,6 +82,8 @@ T﻿he Deathling's range from savage nomads, to quiet loners awaiting the inevit
 
 ## O﻿rc
 
+T﻿he orc's are not native to the continent of Urroth. The first orcs landed on the shores north of Tor during the Dragon Wars. The Bronze City now stands where they landed and is the largest orc settlement in Urroth.  Much of their culture comes from their legendary leader who brought them here, known as the Bronze Orc. This leader was revealed to actually be a bronze dragon at the end of the dragon wars; shortly before she fell in the final battle.
+
 ## T﻿abaxi
 
 ## T﻿arsi
