@@ -40,6 +40,8 @@ Cost: 3
 Cost: 4\
 Requirement: Level 20
 
+* You may only perform this action twice on any single attribute to a max of 22.
+
 ### Increase HP
 
 Cost: 1
