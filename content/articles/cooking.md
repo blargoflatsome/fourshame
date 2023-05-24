@@ -44,7 +44,10 @@ To cook a basic meal with one of the benefits from your ranks is a DC of 10. You
 
 ### Rank 4:
 
-* **Meal:**  Gain Resistance to one Damage Type. \[Acid, Cold, Fire, Lightning]. This mean may be improved by a rank 1 Poisoner's kit or Herbalism kit to add Poison to the list of damage types. Use of a Rank 1 Alchemist Tools may add either Slashing, Piercing, or Bludgeoning.
+* **Meal:**  Gain Resistance to one Damage Type. \[Acid, Cold, Fire, Lightning]. 
+
+  * This meal may be improved by a rank 1 Poisoner's kit or Herbalism kit to add Poison to the list of damage types. 
+  * Use of a Rank 1 Alchemist Tools may add either Slashing, Piercing, or Bludgeoning.
 * **Rations:**  Gain a d6 that can be rolled to add to any one ability check, attack roll, or saving throw before your next long rest.
 
 ### Rank 5:
