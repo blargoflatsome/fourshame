@@ -5,7 +5,7 @@ type: houserule
 description: "Renown: Alternative XP System"
 metaDescription: Renown is a homebrew alternative experience point system.
 ---
-## **Renown**
+## **What is Renown**
 
 Renown is a homebrew alternative experience point system. Renown is earned in game when players do something awesome. This can be anything from engaging in Roleplay, to finding a creative solution to an issue, resolving a major or personal plot point, or any other behavior you wish to encourage at your table.
 
@@ -15,8 +15,7 @@ Renown can be spent in a number of ways, not just for leveling up. This combines
 
 Renown allows you and your table to set the standards of play by rewarding desired behavior with the most precious commodity in the game; Experience Points. 
 
-## \
-**Training**
+## **Training**
 
 ### **Raise a Level**
 
