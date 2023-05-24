@@ -5,7 +5,7 @@ type: houserule
 description: "Renown: Alternative XP System"
 metaDescription: Renown is a homebrew alternative experience point system.
 ---
-## **What is Renown**
+## What is Renown
 
 Renown is a homebrew alternative experience point system. Renown is earned in game when players do something awesome. This can be anything from engaging in Roleplay, to finding a creative solution to an issue, resolving a major or personal plot point, or any other behavior you wish to encourage at your table.
 
@@ -15,9 +15,9 @@ Renown can be spent in a number of ways, not just for leveling up. This combines
 
 Renown allows you and your table to set the standards of play by rewarding desired behavior with the most precious commodity in the game; Experience Points. 
 
-## **Training**
+## Training
 
-### **Raise a Level**
+### Raise a Level
 
 Cost: 5 
 
@@ -28,7 +28,7 @@ Cost: 5
 Cost: 6\
 Requirement: Level 20
 
-### **Raise an Attribute**
+### Raise an Attribute
 
 Cost: 3
 
@@ -40,7 +40,7 @@ Cost: 3
 Cost: 4\
 Requirement: Level 20
 
-### **Increase HP**
+### Increase HP
 
 Cost: 1
 
@@ -55,12 +55,12 @@ Requirement: Level 20
 
 * Roll 1 HD + Con Mod and add it to your Max HP
 
-### **Learn a Language**
+### Learn a Language
 
 Cost: 1\
 Requirement: Teacher/Book, 4 Long Rests
 
-### **Gain New Skill/Tool Proficiency**
+### Gain New Skill/Tool Proficiency
 
 Cost: 2\
 Requirement: Teacher/Book, 7 Long Rests
@@ -79,7 +79,7 @@ Requirement: 7 Long Rests
 
 * By training with a weapon/armor may become proficient with it.
 
-### **Gain a Basic Feat**
+### Gain a Basic Feat
 
 Cost: 2\
 Requirement: Justification
@@ -87,7 +87,7 @@ Requirement: Justification
 * A basic Feat is any feat that does not increase your attributes.
 * You must have IC justification for gaining the new feat.
 
-### **Gain an Advanced Feat**
+### Gain an Advanced Feat
 
 Cost: 4\
 Requirement: Justification
