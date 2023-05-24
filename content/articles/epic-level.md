@@ -65,14 +65,14 @@ Requirement: Teacher/Book, 4 Long Rests
 Cost: 2\
 Requirement: Teacher/Book, 7 Long Rests
 
-### **Gain Skill Expertise**
+### Gain Skill Expertise
 
 Cost 3\
 Requirement: Teacher/Book, 7 Long Rests
 
 * You may only gain Expertise in a skill you are already Proficient in.
 
-### **Gain Weapon/Armor Proficiency**
+### Gain Weapon/Armor Proficiency
 
 Cost: 1\
 Requirement: 7 Long Rests
