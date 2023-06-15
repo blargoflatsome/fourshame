@@ -40,34 +40,45 @@ main
             li.text-left Chat with us midweek
         a(href="https://discord.gg/WVkMgSvRFR" target="_blank" class="btn") Join Our Discord
      
-      div(
-        id="newsletter" 
-        class="flex flex-col justify-between justify-end p-3 text-center flex-1"
-        style="background: url(/img/envelope.png);background-repeat: no-repeat;"
-      )
-        span(class="header mt-3") Newsletter
-        span(class="sub") Lend us your email! 
-        p We may not know what to do with it yet, but someday you'll be happy you did!          
-        div
-          // Begin Mailchimp Signup Form
-          #mc_embed_signup
-            form#mc-embedded-subscribe-form.validate(action='https://app.us9.list-manage.com/subscribe/post?u=809f5475c3f22aab5ed40b7b2&id=749d814914&f_id=007609e1f0' method='post' name='mc-embedded-subscribe-form' target='_blank')
-              #mc_embed_signup_scroll
-                div(class="md:flex my-2")
-                  div(class="w-full md:w-2/3")
-                    input#mce-EMAIL(type='email' value='' name='EMAIL' required placeholder="Email Address *" class="border w-full p-1 rounded")
-                    span#mce-EMAIL-HELPERTEXT.helper_text
-                  div(class="flex-shrink")
-                      a(href='http://eepurl.com/h9d75D' title='Mailchimp - email marketing made easy and fun')
-                        img(src='https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg')
-                #mce-responses.clear.foot
-                  #mce-error-response.response(style='display:none')
-                  #mce-success-response.response(style='display:none')
-                // real people should not fill this in and expect good things - do not remove this or risk form bot signups
-                div(style='position: absolute; left: -5000px;' aria-hidden='true')
-                  input(type='text' name='b_809f5475c3f22aab5ed40b7b2_749d814914' tabindex='-1' value='')
-                input#mc-embedded-subscribe(type='submit' value='Join Our Newlsetter' name='subscribe' class="btn w-full")
-          // End mc_embed_signup
+      //- div(
+      //-   id="newsletter" 
+      //-   class="flex flex-col justify-between justify-end p-3 text-center flex-1"
+      //-   style="background: url(/img/envelope.png);background-repeat: no-repeat;"
+      //- )
+      //-   span(class="header mt-3") Newsletter
+      //-   span(class="sub") Lend us your email! 
+      //-   p We may not know what to do with it yet, but someday you'll be happy you did!          
+      //-   div
+      //-     // Begin Mailchimp Signup Form
+      //-     #mc_embed_signup
+      //-       form#mc-embedded-subscribe-form.validate(action='https://app.us9.list-manage.com/subscribe/post?u=809f5475c3f22aab5ed40b7b2&id=749d814914&f_id=007609e1f0' method='post' name='mc-embedded-subscribe-form' target='_blank')
+      //-         #mc_embed_signup_scroll
+      //-           div(class="md:flex my-2")
+      //-             div(class="w-full md:w-2/3")
+      //-               input#mce-EMAIL(type='email' value='' name='EMAIL' required placeholder="Email Address *" class="border w-full p-1 rounded")
+      //-               span#mce-EMAIL-HELPERTEXT.helper_text
+      //-             div(class="flex-shrink")
+      //-                 a(href='http://eepurl.com/h9d75D' title='Mailchimp - email marketing made easy and fun')
+      //-                   img(src='https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg')
+      //-           #mce-responses.clear.foot
+      //-             #mce-error-response.response(style='display:none')
+      //-             #mce-success-response.response(style='display:none')
+      //-           // real people should not fill this in and expect good things - do not remove this or risk form bot signups
+      //-           div(style='position: absolute; left: -5000px;' aria-hidden='true')
+      //-             input(type='text' name='b_809f5475c3f22aab5ed40b7b2_749d814914' tabindex='-1' value='')
+      //-           input#mc-embedded-subscribe(type='submit' value='Join Our Newlsetter' name='subscribe' class="btn w-full")
+      //-     // End mc_embed_signup
+
+
+      div(class="flex flex-col justify-between justify-end p-3 text-center flex-1")
+        span(class="header mt-3") Merchandise
+        p To help fund our efforts, new equipment, upkeep subscriptions, etc we have also created a 4shameNotHonor store on teespring!      
+        p(class="text-sm") (If you don't see anything you like, feel free to request something on our 
+          a(href="https://discord.gg/WVkMgSvRFR" target="_blank") Discord Server!
+          | )
+        a(href="https://4-shame-not-honor.creator-spring.com" target="_blank" class="btn") Buy Stuff
+
+
 
     div(class="p-3 my-10 border-t-2 border-b-2 rounded")
       p(class="header") The Roudgara Campaign
@@ -87,36 +98,7 @@ main
       p(class="header") 4ShameNotHonor LLC
       p Kayla and Jordan formed the 4ShameNotHonor LLC after our Sunday D&amp;D game gained enough attention on twitch to go affiliate during the onset of the pandemic. Thankfully, we have managed to keep it going even as we all had to return to work and resume normal schedules. Give or take a few cast changes along the way.
       p We are excited to see our stream grow, but mostly we just enjoy the opportunity it has given us to enjoy Sunday evenings with our friends and to make new ones.
-    
-    
-    div(class="flex flex-col my-10 space-y-5 lg:flex-row lg:space-x-10 lg:space-y-0")
-      div(id="merch" class="flex flex-col justify-between justify-end p-3 text-center flex-1")
-        p(class="header") Merchandise
-        p To help fund our efforts, new equipment, upkeep subscriptions, etc we have also created a 4shameNotHonor store on teespring!
-        a(href="https://4-shame-not-honor.creator-spring.com" target="_blank" class="m-auto")
-          img(src="/img/merchandise-banner.jpg" alt="Buy Merch!" class="border")        
-        p(class="text-sm") (If you don't see anything you like, feel free to request something on our 
-          a(href="https://discord.gg/WVkMgSvRFR" target="_blank") Discord Server!
-          | )
-        a(href="https://4-shame-not-honor.creator-spring.com" target="_blank" class="btn") Buy Stuff
-        
-      div(id="partners" class="flex flex-col justify-between justify-end p-3 text-center flex-1")
-        p(class="header") Partnership With Role Positive Gaming
-        div
-          p We have joined our community with the very talented people over at RolePositiveGaming! 
-          p
-            span(class="font-bold") The Weight of Tears
-            br 
-            | Every Monday at 4pm(pst)
-          p
-            span(class="font-bold") Strixhaven
-            br
-            | Every Friday at 4pm(pst)          
-        div(class="flex-1")
-        div(class="flex space-x-2")
-          a(href="https://www.twitch.tv/rolepositivegaming" target="_blank" class="btn w-full") Watch on Twitch
-          a(href="https://www.youtube.com/watch?v=G2ajz6GrlN0" target="_blank" class="btn w-full") Catch up on Youtube
-        
+            
 </template>
 
 <script>
